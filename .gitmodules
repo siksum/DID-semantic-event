@@ -1,0 +1,3 @@
+[submodule "did-event/lib/forge-std"]
+	path = did-event/lib/forge-std
+	url = https://github.com/foundry-rs/forge-std
