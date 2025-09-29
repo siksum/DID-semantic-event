@@ -1,0 +1,69 @@
+{
+  "생성일시": "2025-09-28T23:27:17.615281",
+  "데이터셋_유형": "MSL_DID_위협_탐지",
+  "MSL_필드": [
+    "vc_hash",
+    "holder_did",
+    "verifier_id",
+    "timestamp"
+  ],
+  "이벤트_유형": [
+    "ISSUANCE",
+    "PRESENTATION",
+    "VERIFICATION",
+    "REVOCATION"
+  ],
+  "위협_시나리오": [
+    "vc_reuse_attack",
+    "issuer_impersonation",
+    "revocation_ignore",
+    "time_anomaly"
+  ],
+  "전체_이벤트수": 78990,
+  "레이블별_분포": {
+    "benign": 15798,
+    "vc_reuse_attack": 15798,
+    "issuer_impersonation": 15798,
+    "revocation_ignore": 15798,
+    "time_anomaly": 15798
+  },
+  "이벤트유형별_분포": {
+    "PRESENTATION": 23377,
+    "VERIFICATION": 18643,
+    "ISSUANCE": 18510,
+    "REVOCATION": 18460
+  },
+  "불균형_분석": {
+    "total_samples": 78990,
+    "class_distribution": {
+      "benign": 15798,
+      "vc_reuse_attack": 15798,
+      "issuer_impersonation": 15798,
+      "revocation_ignore": 15798,
+      "time_anomaly": 15798
+    },
+    "class_percentages": {
+      "benign": 20.0,
+      "vc_reuse_attack": 20.0,
+      "issuer_impersonation": 20.0,
+      "revocation_ignore": 20.0,
+      "time_anomaly": 20.0
+    },
+    "imbalance_ratio": 1.0,
+    "class_weights": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  "데이터품질": {
+    "null_값": 74202,
+    "중복_이벤트": 0,
+    "고유_VC해시": 5282,
+    "고유_Holder_DID": 1000,
+    "고유_Verifier_ID": 9
+  },
+  "밸런싱_방법": "random_oversampling"
+}

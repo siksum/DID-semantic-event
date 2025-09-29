@@ -1,0 +1,5051 @@
+{
+  "timestamp": "2025-09-29T22:53:04.058528",
+  "summary": {
+    "total_events": 66,
+    "threat_events": 37,
+    "normal_events": 29,
+    "scenarios_tested": 8
+  },
+  "platform_events": {
+    "normal": [
+      {
+        "event_id": "normal_didnow_verification_1759153983_0",
+        "event_type": "VERIFICATION",
+        "timestamp": "2025-09-29T22:00:03.882908",
+        "did": "did:example:didnow_user_0",
+        "holder_did": "did:example:didnow_holder_0",
+        "verifier_id": "did:example:didnow_verifier_0",
+        "vc_hash": "vc_didnow_0",
+        "issuer_did": "did:example:didnow_issuer_0",
+        "metadata": {
+          "platform": "didnow",
+          "threat": false,
+          "normal_operation": true,
+          "user_agent": "didnow_client_v1.0",
+          "ip_address": "192.168.1.9"
+        }
+      },
+      {
+        "event_id": "normal_didnow_presentation_1759153983_1",
+        "event_type": "PRESENTATION",
+        "timestamp": "2025-09-29T22:11:03.882938",
+        "did": "did:example:didnow_user_1",
+        "holder_did": "did:example:didnow_holder_1",
+        "verifier_id": "did:example:didnow_verifier_1",
+        "vc_hash": "vc_didnow_1",
+        "issuer_did": "did:example:didnow_issuer_1",
+        "metadata": {
+          "platform": "didnow",
+          "threat": false,
+          "normal_operation": true,
+          "user_agent": "didnow_client_v1.0",
+          "ip_address": "192.168.1.139"
+        }
+      },
+      {
+        "event_id": "normal_veramo_revocation_1759153983_2",
+        "event_type": "REVOCATION",
+        "timestamp": "2025-09-29T22:11:03.882951",
+        "did": "did:example:veramo_user_2",
+        "holder_did": "did:example:veramo_holder_2",
+        "verifier_id": "",
+        "vc_hash": "vc_veramo_2",
+        "issuer_did": "did:example:veramo_issuer_2",
+        "metadata": {
+          "platform": "veramo",
+          "threat": false,
+          "normal_operation": true,
+          "user_agent": "veramo_client_v1.0",
+          "ip_address": "192.168.1.122"
+        }
+      },
+      {
+        "event_id": "normal_didnow_did_creation_1759153983_3",
+        "event_type": "DID_CREATION",
+        "timestamp": "2025-09-29T22:04:03.882960",
+        "did": "did:example:didnow_user_3",
+        "holder_did": "did:example:didnow_holder_3",
+        "verifier_id": "",
+        "vc_hash": "vc_didnow_3",
+        "issuer_did": "did:example:didnow_issuer_3",
+        "metadata": {
+          "platform": "didnow",
+          "threat": false,
+          "normal_operation": true,
+          "user_agent": "didnow_client_v1.0",
+          "ip_address": "192.168.1.181"
+        }
+      },
+      {
+        "event_id": "normal_sovrin_verification_1759153983_4",
+        "event_type": "VERIFICATION",
+        "timestamp": "2025-09-29T22:28:03.882968",
+        "did": "did:example:sovrin_user_4",
+        "holder_did": "did:example:sovrin_holder_4",
+        "verifier_id": "did:example:sovrin_verifier_4",
+        "vc_hash": "vc_sovrin_4",
+        "issuer_did": "did:example:sovrin_issuer_4",
+        "metadata": {
+          "platform": "sovrin",
+          "threat": false,
+          "normal_operation": true,
+          "user_agent": "sovrin_client_v1.0",
+          "ip_address": "192.168.1.143"
+        }
+      },
+      {
+        "event_id": "normal_sovrin_did_creation_1759153983_5",
+        "event_type": "DID_CREATION",
+        "timestamp": "2025-09-29T22:49:03.882982",
+        "did": "did:example:sovrin_user_5",
+        "holder_did": "did:example:sovrin_holder_5",
+        "verifier_id": "",
+        "vc_hash": "vc_sovrin_5",
+        "issuer_did": "did:example:sovrin_issuer_5",
+        "metadata": {
+          "platform": "sovrin",
+          "threat": false,
+          "normal_operation": true,
+          "user_agent": "sovrin_client_v1.0",
+          "ip_address": "192.168.1.77"
+        }
+      },
+      {
+        "event_id": "normal_sovrin_revocation_1759153983_6",
+        "event_type": "REVOCATION",
+        "timestamp": "2025-09-29T22:05:03.882989",
+        "did": "did:example:sovrin_user_6",
+        "holder_did": "did:example:sovrin_holder_6",
+        "verifier_id": "",
+        "vc_hash": "vc_sovrin_6",
+        "issuer_did": "did:example:sovrin_issuer_6",
+        "metadata": {
+          "platform": "sovrin",
+          "threat": false,
+          "normal_operation": true,
+          "user_agent": "sovrin_client_v1.0",
+          "ip_address": "192.168.1.110"
+        }
+      },
+      {
+        "event_id": "normal_sovrin_presentation_1759153983_7",
+        "event_type": "PRESENTATION",
+        "timestamp": "2025-09-29T22:21:03.882996",
+        "did": "did:example:sovrin_user_7",
+        "holder_did": "did:example:sovrin_holder_7",
+        "verifier_id": "did:example:sovrin_verifier_7",
+        "vc_hash": "vc_sovrin_7",
+        "issuer_did": "did:example:sovrin_issuer_7",
+        "metadata": {
+          "platform": "sovrin",
+          "threat": false,
+          "normal_operation": true,
+          "user_agent": "sovrin_client_v1.0",
+          "ip_address": "192.168.1.169"
+        }
+      },
+      {
+        "event_id": "normal_didnow_did_creation_1759153983_8",
+        "event_type": "DID_CREATION",
+        "timestamp": "2025-09-29T22:32:03.883003",
+        "did": "did:example:didnow_user_8",
+        "holder_did": "did:example:didnow_holder_8",
+        "verifier_id": "",
+        "vc_hash": "vc_didnow_8",
+        "issuer_did": "did:example:didnow_issuer_8",
+        "metadata": {
+          "platform": "didnow",
+          "threat": false,
+          "normal_operation": true,
+          "user_agent": "didnow_client_v1.0",
+          "ip_address": "192.168.1.151"
+        }
+      },
+      {
+        "event_id": "normal_sovrin_verification_1759153983_9",
+        "event_type": "VERIFICATION",
+        "timestamp": "2025-09-29T21:53:03.883009",
+        "did": "did:example:sovrin_user_9",
+        "holder_did": "did:example:sovrin_holder_9",
+        "verifier_id": "did:example:sovrin_verifier_9",
+        "vc_hash": "vc_sovrin_9",
+        "issuer_did": "did:example:sovrin_issuer_9",
+        "metadata": {
+          "platform": "sovrin",
+          "threat": false,
+          "normal_operation": true,
+          "user_agent": "sovrin_client_v1.0",
+          "ip_address": "192.168.1.111"
+        }
+      },
+      {
+        "event_id": "normal_didnow_verification_1759153983_10",
+        "event_type": "VERIFICATION",
+        "timestamp": "2025-09-29T22:44:03.883016",
+        "did": "did:example:didnow_user_10",
+        "holder_did": "did:example:didnow_holder_10",
+        "verifier_id": "did:example:didnow_verifier_10",
+        "vc_hash": "vc_didnow_10",
+        "issuer_did": "did:example:didnow_issuer_10",
+        "metadata": {
+          "platform": "didnow",
+          "threat": false,
+          "normal_operation": true,
+          "user_agent": "didnow_client_v1.0",
+          "ip_address": "192.168.1.133"
+        }
+      },
+      {
+        "event_id": "normal_sovrin_did_creation_1759153983_11",
+        "event_type": "DID_CREATION",
+        "timestamp": "2025-09-29T22:23:03.883023",
+        "did": "did:example:sovrin_user_11",
+        "holder_did": "did:example:sovrin_holder_11",
+        "verifier_id": "",
+        "vc_hash": "vc_sovrin_11",
+        "issuer_did": "did:example:sovrin_issuer_11",
+        "metadata": {
+          "platform": "sovrin",
+          "threat": false,
+          "normal_operation": true,
+          "user_agent": "sovrin_client_v1.0",
+          "ip_address": "192.168.1.44"
+        }
+      },
+      {
+        "event_id": "normal_didnow_issuance_1759153983_12",
+        "event_type": "ISSUANCE",
+        "timestamp": "2025-09-29T22:26:03.883030",
+        "did": "did:example:didnow_user_12",
+        "holder_did": "did:example:didnow_holder_12",
+        "verifier_id": "",
+        "vc_hash": "vc_didnow_12",
+        "issuer_did": "did:example:didnow_issuer_12",
+        "metadata": {
+          "platform": "didnow",
+          "threat": false,
+          "normal_operation": true,
+          "user_agent": "didnow_client_v1.0",
+          "ip_address": "192.168.1.75"
+        }
+      },
+      {
+        "event_id": "normal_veramo_verification_1759153983_13",
+        "event_type": "VERIFICATION",
+        "timestamp": "2025-09-29T22:20:03.883037",
+        "did": "did:example:veramo_user_13",
+        "holder_did": "did:example:veramo_holder_13",
+        "verifier_id": "did:example:veramo_verifier_13",
+        "vc_hash": "vc_veramo_13",
+        "issuer_did": "did:example:veramo_issuer_13",
+        "metadata": {
+          "platform": "veramo",
+          "threat": false,
+          "normal_operation": true,
+          "user_agent": "veramo_client_v1.0",
+          "ip_address": "192.168.1.149"
+        }
+      },
+      {
+        "event_id": "normal_veramo_verification_1759153983_14",
+        "event_type": "VERIFICATION",
+        "timestamp": "2025-09-29T21:53:03.883044",
+        "did": "did:example:veramo_user_14",
+        "holder_did": "did:example:veramo_holder_14",
+        "verifier_id": "did:example:veramo_verifier_14",
+        "vc_hash": "vc_veramo_14",
+        "issuer_did": "did:example:veramo_issuer_14",
+        "metadata": {
+          "platform": "veramo",
+          "threat": false,
+          "normal_operation": true,
+          "user_agent": "veramo_client_v1.0",
+          "ip_address": "192.168.1.187"
+        }
+      },
+      {
+        "event_id": "normal_sovrin_issuance_1759153983_15",
+        "event_type": "ISSUANCE",
+        "timestamp": "2025-09-29T22:25:03.883051",
+        "did": "did:example:sovrin_user_15",
+        "holder_did": "did:example:sovrin_holder_15",
+        "verifier_id": "",
+        "vc_hash": "vc_sovrin_15",
+        "issuer_did": "did:example:sovrin_issuer_15",
+        "metadata": {
+          "platform": "sovrin",
+          "threat": false,
+          "normal_operation": true,
+          "user_agent": "sovrin_client_v1.0",
+          "ip_address": "192.168.1.235"
+        }
+      },
+      {
+        "event_id": "normal_veramo_presentation_1759153983_16",
+        "event_type": "PRESENTATION",
+        "timestamp": "2025-09-29T22:19:03.883057",
+        "did": "did:example:veramo_user_16",
+        "holder_did": "did:example:veramo_holder_16",
+        "verifier_id": "did:example:veramo_verifier_16",
+        "vc_hash": "vc_veramo_16",
+        "issuer_did": "did:example:veramo_issuer_16",
+        "metadata": {
+          "platform": "veramo",
+          "threat": false,
+          "normal_operation": true,
+          "user_agent": "veramo_client_v1.0",
+          "ip_address": "192.168.1.99"
+        }
+      },
+      {
+        "event_id": "normal_sovrin_did_creation_1759153983_17",
+        "event_type": "DID_CREATION",
+        "timestamp": "2025-09-29T21:57:03.883067",
+        "did": "did:example:sovrin_user_17",
+        "holder_did": "did:example:sovrin_holder_17",
+        "verifier_id": "",
+        "vc_hash": "vc_sovrin_17",
+        "issuer_did": "did:example:sovrin_issuer_17",
+        "metadata": {
+          "platform": "sovrin",
+          "threat": false,
+          "normal_operation": true,
+          "user_agent": "sovrin_client_v1.0",
+          "ip_address": "192.168.1.3"
+        }
+      },
+      {
+        "event_id": "normal_didnow_revocation_1759153983_18",
+        "event_type": "REVOCATION",
+        "timestamp": "2025-09-29T22:35:03.883074",
+        "did": "did:example:didnow_user_18",
+        "holder_did": "did:example:didnow_holder_18",
+        "verifier_id": "",
+        "vc_hash": "vc_didnow_18",
+        "issuer_did": "did:example:didnow_issuer_18",
+        "metadata": {
+          "platform": "didnow",
+          "threat": false,
+          "normal_operation": true,
+          "user_agent": "didnow_client_v1.0",
+          "ip_address": "192.168.1.87"
+        }
+      },
+      {
+        "event_id": "normal_veramo_verification_1759153983_19",
+        "event_type": "VERIFICATION",
+        "timestamp": "2025-09-29T22:14:03.883080",
+        "did": "did:example:veramo_user_19",
+        "holder_did": "did:example:veramo_holder_19",
+        "verifier_id": "did:example:veramo_verifier_19",
+        "vc_hash": "vc_veramo_19",
+        "issuer_did": "did:example:veramo_issuer_19",
+        "metadata": {
+          "platform": "veramo",
+          "threat": false,
+          "normal_operation": true,
+          "user_agent": "veramo_client_v1.0",
+          "ip_address": "192.168.1.165"
+        }
+      }
+    ],
+    "threats": {
+      "credential_reuse_attack": [
+        {
+          "event_id": "credential_reuse_1759153983_0",
+          "event_type": "VERIFICATION",
+          "timestamp": "2025-09-29T22:53:03.883227",
+          "did": "did:example:attacker",
+          "holder_did": "did:example:attacker",
+          "verifier_id": "did:example:verifier_0",
+          "vc_hash": "stolen_vc_12345",
+          "issuer_did": "did:example:legitimate_issuer",
+          "metadata": {
+            "platform": "didnow",
+            "threat": true,
+            "attack_type": "credential_reuse",
+            "reuse_count": 1,
+            "suspicious_pattern": true
+          }
+        },
+        {
+          "event_id": "credential_reuse_1759153983_1",
+          "event_type": "VERIFICATION",
+          "timestamp": "2025-09-29T22:55:03.883227",
+          "did": "did:example:attacker",
+          "holder_did": "did:example:attacker",
+          "verifier_id": "did:example:verifier_1",
+          "vc_hash": "stolen_vc_12345",
+          "issuer_did": "did:example:legitimate_issuer",
+          "metadata": {
+            "platform": "didnow",
+            "threat": true,
+            "attack_type": "credential_reuse",
+            "reuse_count": 2,
+            "suspicious_pattern": true
+          }
+        },
+        {
+          "event_id": "credential_reuse_1759153983_2",
+          "event_type": "VERIFICATION",
+          "timestamp": "2025-09-29T22:57:03.883227",
+          "did": "did:example:attacker",
+          "holder_did": "did:example:attacker",
+          "verifier_id": "did:example:verifier_2",
+          "vc_hash": "stolen_vc_12345",
+          "issuer_did": "did:example:legitimate_issuer",
+          "metadata": {
+            "platform": "didnow",
+            "threat": true,
+            "attack_type": "credential_reuse",
+            "reuse_count": 3,
+            "suspicious_pattern": true
+          }
+        },
+        {
+          "event_id": "credential_reuse_1759153983_3",
+          "event_type": "VERIFICATION",
+          "timestamp": "2025-09-29T22:59:03.883227",
+          "did": "did:example:attacker",
+          "holder_did": "did:example:attacker",
+          "verifier_id": "did:example:verifier_3",
+          "vc_hash": "stolen_vc_12345",
+          "issuer_did": "did:example:legitimate_issuer",
+          "metadata": {
+            "platform": "didnow",
+            "threat": true,
+            "attack_type": "credential_reuse",
+            "reuse_count": 4,
+            "suspicious_pattern": true
+          }
+        },
+        {
+          "event_id": "credential_reuse_1759153983_4",
+          "event_type": "VERIFICATION",
+          "timestamp": "2025-09-29T23:01:03.883227",
+          "did": "did:example:attacker",
+          "holder_did": "did:example:attacker",
+          "verifier_id": "did:example:verifier_4",
+          "vc_hash": "stolen_vc_12345",
+          "issuer_did": "did:example:legitimate_issuer",
+          "metadata": {
+            "platform": "didnow",
+            "threat": true,
+            "attack_type": "credential_reuse",
+            "reuse_count": 5,
+            "suspicious_pattern": true
+          }
+        }
+      ],
+      "issuer_impersonation": [
+        {
+          "event_id": "issuer_impersonation_1759153983_0",
+          "event_type": "ISSUANCE",
+          "timestamp": "2025-09-29T22:53:03.883339",
+          "did": "did:example:fake_issuer",
+          "holder_did": "did:example:holder_victim",
+          "verifier_id": "",
+          "vc_hash": "fake_vc_0",
+          "issuer_did": "did:example:fake_issuer",
+          "metadata": {
+            "platform": "veramo",
+            "threat": true,
+            "attack_type": "issuer_impersonation",
+            "fake_issuer": true,
+            "legitimate_issuer": "did:example:real_issuer",
+            "credential_type": "fake_identity"
+          }
+        },
+        {
+          "event_id": "issuer_impersonation_1759153983_1",
+          "event_type": "ISSUANCE",
+          "timestamp": "2025-09-29T22:43:03.883346",
+          "did": "did:example:fake_issuer",
+          "holder_did": "did:example:holder_victim",
+          "verifier_id": "",
+          "vc_hash": "fake_vc_1",
+          "issuer_did": "did:example:fake_issuer",
+          "metadata": {
+            "platform": "veramo",
+            "threat": true,
+            "attack_type": "issuer_impersonation",
+            "fake_issuer": true,
+            "legitimate_issuer": "did:example:real_issuer",
+            "credential_type": "fake_identity"
+          }
+        },
+        {
+          "event_id": "issuer_impersonation_1759153983_2",
+          "event_type": "ISSUANCE",
+          "timestamp": "2025-09-29T22:33:03.883351",
+          "did": "did:example:fake_issuer",
+          "holder_did": "did:example:holder_victim",
+          "verifier_id": "",
+          "vc_hash": "fake_vc_2",
+          "issuer_did": "did:example:fake_issuer",
+          "metadata": {
+            "platform": "veramo",
+            "threat": true,
+            "attack_type": "issuer_impersonation",
+            "fake_issuer": true,
+            "legitimate_issuer": "did:example:real_issuer",
+            "credential_type": "fake_identity"
+          }
+        }
+      ],
+      "rapid_events_attack": [
+        {
+          "event_id": "rapid_event_1759153983_0",
+          "event_type": "ISSUANCE",
+          "timestamp": "2025-09-29T22:53:03.883430",
+          "did": "did:example:rapid_attacker",
+          "holder_did": "did:example:rapid_attacker",
+          "verifier_id": "did:example:verifier",
+          "vc_hash": "rapid_vc_0",
+          "issuer_did": "did:example:issuer",
+          "metadata": {
+            "platform": "sovrin",
+            "threat": true,
+            "attack_type": "rapid_events",
+            "event_interval": 6,
+            "total_events": 10,
+            "time_window": 60
+          }
+        },
+        {
+          "event_id": "rapid_event_1759153983_1",
+          "event_type": "PRESENTATION",
+          "timestamp": "2025-09-29T22:53:09.883430",
+          "did": "did:example:rapid_attacker",
+          "holder_did": "did:example:rapid_attacker",
+          "verifier_id": "",
+          "vc_hash": "rapid_vc_1",
+          "issuer_did": "did:example:issuer",
+          "metadata": {
+            "platform": "sovrin",
+            "threat": true,
+            "attack_type": "rapid_events",
+            "event_interval": 6,
+            "total_events": 10,
+            "time_window": 60
+          }
+        },
+        {
+          "event_id": "rapid_event_1759153983_2",
+          "event_type": "VERIFICATION",
+          "timestamp": "2025-09-29T22:53:15.883430",
+          "did": "did:example:rapid_attacker",
+          "holder_did": "did:example:rapid_attacker",
+          "verifier_id": "did:example:verifier",
+          "vc_hash": "rapid_vc_2",
+          "issuer_did": "did:example:issuer",
+          "metadata": {
+            "platform": "sovrin",
+            "threat": true,
+            "attack_type": "rapid_events",
+            "event_interval": 6,
+            "total_events": 10,
+            "time_window": 60
+          }
+        },
+        {
+          "event_id": "rapid_event_1759153983_3",
+          "event_type": "VERIFICATION",
+          "timestamp": "2025-09-29T22:53:21.883430",
+          "did": "did:example:rapid_attacker",
+          "holder_did": "did:example:rapid_attacker",
+          "verifier_id": "",
+          "vc_hash": "rapid_vc_3",
+          "issuer_did": "did:example:issuer",
+          "metadata": {
+            "platform": "sovrin",
+            "threat": true,
+            "attack_type": "rapid_events",
+            "event_interval": 6,
+            "total_events": 10,
+            "time_window": 60
+          }
+        },
+        {
+          "event_id": "rapid_event_1759153983_4",
+          "event_type": "PRESENTATION",
+          "timestamp": "2025-09-29T22:53:27.883430",
+          "did": "did:example:rapid_attacker",
+          "holder_did": "did:example:rapid_attacker",
+          "verifier_id": "did:example:verifier",
+          "vc_hash": "rapid_vc_4",
+          "issuer_did": "did:example:issuer",
+          "metadata": {
+            "platform": "sovrin",
+            "threat": true,
+            "attack_type": "rapid_events",
+            "event_interval": 6,
+            "total_events": 10,
+            "time_window": 60
+          }
+        },
+        {
+          "event_id": "rapid_event_1759153983_5",
+          "event_type": "PRESENTATION",
+          "timestamp": "2025-09-29T22:53:33.883430",
+          "did": "did:example:rapid_attacker",
+          "holder_did": "did:example:rapid_attacker",
+          "verifier_id": "",
+          "vc_hash": "rapid_vc_5",
+          "issuer_did": "did:example:issuer",
+          "metadata": {
+            "platform": "sovrin",
+            "threat": true,
+            "attack_type": "rapid_events",
+            "event_interval": 6,
+            "total_events": 10,
+            "time_window": 60
+          }
+        },
+        {
+          "event_id": "rapid_event_1759153983_6",
+          "event_type": "ISSUANCE",
+          "timestamp": "2025-09-29T22:53:39.883430",
+          "did": "did:example:rapid_attacker",
+          "holder_did": "did:example:rapid_attacker",
+          "verifier_id": "did:example:verifier",
+          "vc_hash": "rapid_vc_6",
+          "issuer_did": "did:example:issuer",
+          "metadata": {
+            "platform": "sovrin",
+            "threat": true,
+            "attack_type": "rapid_events",
+            "event_interval": 6,
+            "total_events": 10,
+            "time_window": 60
+          }
+        },
+        {
+          "event_id": "rapid_event_1759153983_7",
+          "event_type": "VERIFICATION",
+          "timestamp": "2025-09-29T22:53:45.883430",
+          "did": "did:example:rapid_attacker",
+          "holder_did": "did:example:rapid_attacker",
+          "verifier_id": "",
+          "vc_hash": "rapid_vc_7",
+          "issuer_did": "did:example:issuer",
+          "metadata": {
+            "platform": "sovrin",
+            "threat": true,
+            "attack_type": "rapid_events",
+            "event_interval": 6,
+            "total_events": 10,
+            "time_window": 60
+          }
+        },
+        {
+          "event_id": "rapid_event_1759153983_8",
+          "event_type": "ISSUANCE",
+          "timestamp": "2025-09-29T22:53:51.883430",
+          "did": "did:example:rapid_attacker",
+          "holder_did": "did:example:rapid_attacker",
+          "verifier_id": "did:example:verifier",
+          "vc_hash": "rapid_vc_8",
+          "issuer_did": "did:example:issuer",
+          "metadata": {
+            "platform": "sovrin",
+            "threat": true,
+            "attack_type": "rapid_events",
+            "event_interval": 6,
+            "total_events": 10,
+            "time_window": 60
+          }
+        },
+        {
+          "event_id": "rapid_event_1759153983_9",
+          "event_type": "VERIFICATION",
+          "timestamp": "2025-09-29T22:53:57.883430",
+          "did": "did:example:rapid_attacker",
+          "holder_did": "did:example:rapid_attacker",
+          "verifier_id": "",
+          "vc_hash": "rapid_vc_9",
+          "issuer_did": "did:example:issuer",
+          "metadata": {
+            "platform": "sovrin",
+            "threat": true,
+            "attack_type": "rapid_events",
+            "event_interval": 6,
+            "total_events": 10,
+            "time_window": 60
+          }
+        }
+      ],
+      "time_anomaly_attack": [
+        {
+          "event_id": "time_anomaly_1759153983_0",
+          "event_type": "VERIFICATION",
+          "timestamp": "2025-09-29T23:03:03.883560",
+          "did": "did:example:time_attacker",
+          "holder_did": "did:example:time_attacker",
+          "verifier_id": "did:example:verifier",
+          "vc_hash": "anomaly_vc_0",
+          "issuer_did": "did:example:issuer",
+          "metadata": {
+            "platform": "didnow",
+            "threat": true,
+            "attack_type": "time_anomaly",
+            "timestamp_anomaly": true,
+            "expected_order": 0,
+            "actual_timestamp": "2025-09-29T23:03:03.883560"
+          }
+        },
+        {
+          "event_id": "time_anomaly_1759153983_1",
+          "event_type": "VERIFICATION",
+          "timestamp": "2025-09-29T22:48:03.883560",
+          "did": "did:example:time_attacker",
+          "holder_did": "did:example:time_attacker",
+          "verifier_id": "did:example:verifier",
+          "vc_hash": "anomaly_vc_1",
+          "issuer_did": "did:example:issuer",
+          "metadata": {
+            "platform": "didnow",
+            "threat": true,
+            "attack_type": "time_anomaly",
+            "timestamp_anomaly": true,
+            "expected_order": 1,
+            "actual_timestamp": "2025-09-29T22:48:03.883560"
+          }
+        },
+        {
+          "event_id": "time_anomaly_1759153983_2",
+          "event_type": "VERIFICATION",
+          "timestamp": "2025-09-29T23:08:03.883560",
+          "did": "did:example:time_attacker",
+          "holder_did": "did:example:time_attacker",
+          "verifier_id": "did:example:verifier",
+          "vc_hash": "anomaly_vc_2",
+          "issuer_did": "did:example:issuer",
+          "metadata": {
+            "platform": "didnow",
+            "threat": true,
+            "attack_type": "time_anomaly",
+            "timestamp_anomaly": true,
+            "expected_order": 2,
+            "actual_timestamp": "2025-09-29T23:08:03.883560"
+          }
+        },
+        {
+          "event_id": "time_anomaly_1759153983_3",
+          "event_type": "VERIFICATION",
+          "timestamp": "2025-09-29T22:51:03.883560",
+          "did": "did:example:time_attacker",
+          "holder_did": "did:example:time_attacker",
+          "verifier_id": "did:example:verifier",
+          "vc_hash": "anomaly_vc_3",
+          "issuer_did": "did:example:issuer",
+          "metadata": {
+            "platform": "didnow",
+            "threat": true,
+            "attack_type": "time_anomaly",
+            "timestamp_anomaly": true,
+            "expected_order": 3,
+            "actual_timestamp": "2025-09-29T22:51:03.883560"
+          }
+        }
+      ],
+      "cross_platform_attack": [
+        {
+          "event_id": "cross_platform_1759153983_0",
+          "event_type": "ISSUANCE",
+          "timestamp": "2025-09-29T22:53:03.883667",
+          "did": "did:example:cross_attacker",
+          "holder_did": "did:example:cross_attacker",
+          "verifier_id": "",
+          "vc_hash": "cross_platform_vc",
+          "issuer_did": "did:example:issuer",
+          "metadata": {
+            "platform": "didnow",
+            "threat": true,
+            "attack_type": "cross_platform",
+            "attack_sequence": 1,
+            "total_platforms": 3,
+            "coordinated_attack": true
+          }
+        },
+        {
+          "event_id": "cross_platform_1759153983_1",
+          "event_type": "VERIFICATION",
+          "timestamp": "2025-09-29T22:58:03.883667",
+          "did": "did:example:cross_attacker",
+          "holder_did": "did:example:cross_attacker",
+          "verifier_id": "did:example:verifier",
+          "vc_hash": "cross_platform_vc",
+          "issuer_did": "did:example:issuer",
+          "metadata": {
+            "platform": "veramo",
+            "threat": true,
+            "attack_type": "cross_platform",
+            "attack_sequence": 2,
+            "total_platforms": 3,
+            "coordinated_attack": true
+          }
+        },
+        {
+          "event_id": "cross_platform_1759153983_2",
+          "event_type": "VERIFICATION",
+          "timestamp": "2025-09-29T23:03:03.883667",
+          "did": "did:example:cross_attacker",
+          "holder_did": "did:example:cross_attacker",
+          "verifier_id": "did:example:verifier",
+          "vc_hash": "cross_platform_vc",
+          "issuer_did": "did:example:issuer",
+          "metadata": {
+            "platform": "sovrin",
+            "threat": true,
+            "attack_type": "cross_platform",
+            "attack_sequence": 3,
+            "total_platforms": 3,
+            "coordinated_attack": true
+          }
+        }
+      ],
+      "credential_theft_simulation": [
+        {
+          "event_id": "credential_theft_1759153983_0",
+          "event_type": "PRESENTATION",
+          "timestamp": "2025-09-29T22:53:03.883760",
+          "did": "did:example:thief",
+          "holder_did": "did:example:thief",
+          "verifier_id": "did:example:verifier",
+          "vc_hash": "stolen_credential_123",
+          "issuer_did": "did:example:original_holder",
+          "metadata": {
+            "platform": "veramo",
+            "threat": true,
+            "attack_type": "credential_theft",
+            "original_holder": "did:example:original_holder",
+            "thief_identity": "did:example:thief",
+            "stolen_credential": true
+          }
+        },
+        {
+          "event_id": "credential_theft_1759153983_1",
+          "event_type": "PRESENTATION",
+          "timestamp": "2025-09-29T22:38:03.883767",
+          "did": "did:example:thief",
+          "holder_did": "did:example:thief",
+          "verifier_id": "did:example:verifier",
+          "vc_hash": "stolen_credential_123",
+          "issuer_did": "did:example:original_holder",
+          "metadata": {
+            "platform": "veramo",
+            "threat": true,
+            "attack_type": "credential_theft",
+            "original_holder": "did:example:original_holder",
+            "thief_identity": "did:example:thief",
+            "stolen_credential": true
+          }
+        },
+        {
+          "event_id": "credential_theft_1759153983_2",
+          "event_type": "PRESENTATION",
+          "timestamp": "2025-09-29T22:23:03.883772",
+          "did": "did:example:thief",
+          "holder_did": "did:example:thief",
+          "verifier_id": "did:example:verifier",
+          "vc_hash": "stolen_credential_123",
+          "issuer_did": "did:example:original_holder",
+          "metadata": {
+            "platform": "veramo",
+            "threat": true,
+            "attack_type": "credential_theft",
+            "original_holder": "did:example:original_holder",
+            "thief_identity": "did:example:thief",
+            "stolen_credential": true
+          }
+        },
+        {
+          "event_id": "credential_theft_1759153983_3",
+          "event_type": "PRESENTATION",
+          "timestamp": "2025-09-29T22:08:03.883776",
+          "did": "did:example:thief",
+          "holder_did": "did:example:thief",
+          "verifier_id": "did:example:verifier",
+          "vc_hash": "stolen_credential_123",
+          "issuer_did": "did:example:original_holder",
+          "metadata": {
+            "platform": "veramo",
+            "threat": true,
+            "attack_type": "credential_theft",
+            "original_holder": "did:example:original_holder",
+            "thief_identity": "did:example:thief",
+            "stolen_credential": true
+          }
+        }
+      ],
+      "did_hijacking": [
+        {
+          "event_id": "did_hijack_update_1759153983",
+          "event_type": "DID_UPDATE",
+          "timestamp": "2025-09-29T22:43:03.883885",
+          "did": "did:example:original_user",
+          "holder_did": "did:example:hijacker",
+          "verifier_id": "",
+          "vc_hash": "",
+          "issuer_did": "",
+          "metadata": {
+            "platform": "sovrin",
+            "threat": true,
+            "attack_type": "did_hijacking",
+            "original_owner": "did:example:original_user",
+            "hijacker": "did:example:hijacker",
+            "hijack_method": "private_key_compromise"
+          }
+        },
+        {
+          "event_id": "did_hijack_deactivate_1759153983",
+          "event_type": "DID_DEACTIVATION",
+          "timestamp": "2025-09-29T22:48:03.883891",
+          "did": "did:example:original_user",
+          "holder_did": "did:example:hijacker",
+          "verifier_id": "",
+          "vc_hash": "",
+          "issuer_did": "",
+          "metadata": {
+            "platform": "sovrin",
+            "threat": true,
+            "attack_type": "did_hijacking",
+            "deactivation_by_hijacker": true
+          }
+        }
+      ],
+      "sybil_attack": [
+        {
+          "event_id": "sybil_identity_1759153983_0",
+          "event_type": "DID_CREATION",
+          "timestamp": "2025-09-29T22:53:03.883971",
+          "did": "did:example:sybil_0",
+          "holder_did": "did:example:sybil_0",
+          "verifier_id": "",
+          "vc_hash": "",
+          "issuer_did": "",
+          "metadata": {
+            "platform": "didnow",
+            "threat": true,
+            "attack_type": "sybil_attack",
+            "fake_identity": true,
+            "sybil_network": true,
+            "identity_count": 1,
+            "controlled_by": "did:example:sybil_controller"
+          }
+        },
+        {
+          "event_id": "sybil_identity_1759153983_1",
+          "event_type": "DID_CREATION",
+          "timestamp": "2025-09-29T22:50:03.883978",
+          "did": "did:example:sybil_1",
+          "holder_did": "did:example:sybil_1",
+          "verifier_id": "",
+          "vc_hash": "",
+          "issuer_did": "",
+          "metadata": {
+            "platform": "didnow",
+            "threat": true,
+            "attack_type": "sybil_attack",
+            "fake_identity": true,
+            "sybil_network": true,
+            "identity_count": 2,
+            "controlled_by": "did:example:sybil_controller"
+          }
+        },
+        {
+          "event_id": "sybil_identity_1759153983_2",
+          "event_type": "DID_CREATION",
+          "timestamp": "2025-09-29T22:47:03.883987",
+          "did": "did:example:sybil_2",
+          "holder_did": "did:example:sybil_2",
+          "verifier_id": "",
+          "vc_hash": "",
+          "issuer_did": "",
+          "metadata": {
+            "platform": "didnow",
+            "threat": true,
+            "attack_type": "sybil_attack",
+            "fake_identity": true,
+            "sybil_network": true,
+            "identity_count": 3,
+            "controlled_by": "did:example:sybil_controller"
+          }
+        },
+        {
+          "event_id": "sybil_identity_1759153983_3",
+          "event_type": "DID_CREATION",
+          "timestamp": "2025-09-29T22:44:03.883992",
+          "did": "did:example:sybil_3",
+          "holder_did": "did:example:sybil_3",
+          "verifier_id": "",
+          "vc_hash": "",
+          "issuer_did": "",
+          "metadata": {
+            "platform": "didnow",
+            "threat": true,
+            "attack_type": "sybil_attack",
+            "fake_identity": true,
+            "sybil_network": true,
+            "identity_count": 4,
+            "controlled_by": "did:example:sybil_controller"
+          }
+        },
+        {
+          "event_id": "sybil_identity_1759153983_4",
+          "event_type": "DID_CREATION",
+          "timestamp": "2025-09-29T22:41:03.883996",
+          "did": "did:example:sybil_4",
+          "holder_did": "did:example:sybil_4",
+          "verifier_id": "",
+          "vc_hash": "",
+          "issuer_did": "",
+          "metadata": {
+            "platform": "didnow",
+            "threat": true,
+            "attack_type": "sybil_attack",
+            "fake_identity": true,
+            "sybil_network": true,
+            "identity_count": 5,
+            "controlled_by": "did:example:sybil_controller"
+          }
+        },
+        {
+          "event_id": "sybil_identity_1759153983_5",
+          "event_type": "DID_CREATION",
+          "timestamp": "2025-09-29T22:38:03.884003",
+          "did": "did:example:sybil_5",
+          "holder_did": "did:example:sybil_5",
+          "verifier_id": "",
+          "vc_hash": "",
+          "issuer_did": "",
+          "metadata": {
+            "platform": "didnow",
+            "threat": true,
+            "attack_type": "sybil_attack",
+            "fake_identity": true,
+            "sybil_network": true,
+            "identity_count": 6,
+            "controlled_by": "did:example:sybil_controller"
+          }
+        }
+      ]
+    },
+    "didnow_real": [],
+    "veramo_real": [
+      {
+        "event_id": "veramo_real_1759153983_0",
+        "event_type": "DID_CREATION",
+        "timestamp": "2025-09-29T22:53:03.966255",
+        "did": "did:ethr:0x399507",
+        "holder_did": "did:ethr:0x724648",
+        "verifier_id": "",
+        "vc_hash": "",
+        "issuer_did": "",
+        "metadata": {
+          "platform": "veramo",
+          "threat": false,
+          "plugin_version": "1.0.0",
+          "ethereum_network": "mainnet",
+          "real_plugin_usage": true,
+          "key_type": "secp256k1"
+        }
+      },
+      {
+        "event_id": "veramo_real_1759153983_1",
+        "event_type": "DID_CREATION",
+        "timestamp": "2025-09-29T22:51:03.966316",
+        "did": "did:ethr:0x462365",
+        "holder_did": "did:ethr:0x914256",
+        "verifier_id": "",
+        "vc_hash": "",
+        "issuer_did": "",
+        "metadata": {
+          "platform": "veramo",
+          "threat": false,
+          "plugin_version": "1.0.0",
+          "ethereum_network": "mainnet",
+          "real_plugin_usage": true,
+          "key_type": "secp256k1"
+        }
+      },
+      {
+        "event_id": "veramo_real_1759153983_2",
+        "event_type": "DID_CREATION",
+        "timestamp": "2025-09-29T22:49:03.966351",
+        "did": "did:ethr:0x207255",
+        "holder_did": "did:ethr:0x719492",
+        "verifier_id": "",
+        "vc_hash": "",
+        "issuer_did": "",
+        "metadata": {
+          "platform": "veramo",
+          "threat": false,
+          "plugin_version": "1.0.0",
+          "ethereum_network": "mainnet",
+          "real_plugin_usage": true,
+          "key_type": "secp256k1"
+        }
+      },
+      {
+        "event_id": "veramo_real_1759153983_3",
+        "event_type": "DID_CREATION",
+        "timestamp": "2025-09-29T22:47:03.966375",
+        "did": "did:ethr:0x246758",
+        "holder_did": "did:ethr:0x289358",
+        "verifier_id": "",
+        "vc_hash": "",
+        "issuer_did": "",
+        "metadata": {
+          "platform": "veramo",
+          "threat": false,
+          "plugin_version": "1.0.0",
+          "ethereum_network": "mainnet",
+          "real_plugin_usage": true,
+          "key_type": "secp256k1"
+        }
+      },
+      {
+        "event_id": "veramo_real_1759153983_4",
+        "event_type": "DID_CREATION",
+        "timestamp": "2025-09-29T22:45:03.966396",
+        "did": "did:ethr:0x163015",
+        "holder_did": "did:ethr:0x652020",
+        "verifier_id": "",
+        "vc_hash": "",
+        "issuer_did": "",
+        "metadata": {
+          "platform": "veramo",
+          "threat": false,
+          "plugin_version": "1.0.0",
+          "ethereum_network": "mainnet",
+          "real_plugin_usage": true,
+          "key_type": "secp256k1"
+        }
+      }
+    ],
+    "sovrin_real": [
+      {
+        "event_id": "sovrin_real_1759153983_0",
+        "event_type": "PRESENTATION",
+        "timestamp": "2025-09-29T22:53:03.966771",
+        "did": "did:sov:test2176",
+        "holder_did": "did:sov:test9268",
+        "verifier_id": "did:sov:verifier123",
+        "vc_hash": "sovrin_vc_0",
+        "issuer_did": "did:sov:issuer456",
+        "metadata": {
+          "platform": "sovrin",
+          "threat": false,
+          "network": "testnet",
+          "real_adapter_usage": true,
+          "indy_sdk_version": "1.16.0",
+          "ledger_type": "indy"
+        }
+      },
+      {
+        "event_id": "sovrin_real_1759153983_1",
+        "event_type": "PRESENTATION",
+        "timestamp": "2025-09-29T22:50:03.966809",
+        "did": "did:sov:test8137",
+        "holder_did": "did:sov:test6680",
+        "verifier_id": "did:sov:verifier123",
+        "vc_hash": "sovrin_vc_1",
+        "issuer_did": "did:sov:issuer456",
+        "metadata": {
+          "platform": "sovrin",
+          "threat": false,
+          "network": "testnet",
+          "real_adapter_usage": true,
+          "indy_sdk_version": "1.16.0",
+          "ledger_type": "indy"
+        }
+      },
+      {
+        "event_id": "sovrin_real_1759153983_2",
+        "event_type": "PRESENTATION",
+        "timestamp": "2025-09-29T22:47:03.966868",
+        "did": "did:sov:test7202",
+        "holder_did": "did:sov:test1417",
+        "verifier_id": "did:sov:verifier123",
+        "vc_hash": "sovrin_vc_2",
+        "issuer_did": "did:sov:issuer456",
+        "metadata": {
+          "platform": "sovrin",
+          "threat": false,
+          "network": "testnet",
+          "real_adapter_usage": true,
+          "indy_sdk_version": "1.16.0",
+          "ledger_type": "indy"
+        }
+      },
+      {
+        "event_id": "sovrin_real_1759153983_3",
+        "event_type": "PRESENTATION",
+        "timestamp": "2025-09-29T22:44:03.966892",
+        "did": "did:sov:test4002",
+        "holder_did": "did:sov:test7273",
+        "verifier_id": "did:sov:verifier123",
+        "vc_hash": "sovrin_vc_3",
+        "issuer_did": "did:sov:issuer456",
+        "metadata": {
+          "platform": "sovrin",
+          "threat": false,
+          "network": "testnet",
+          "real_adapter_usage": true,
+          "indy_sdk_version": "1.16.0",
+          "ledger_type": "indy"
+        }
+      }
+    ]
+  },
+  "msl_events": [
+    {
+      "event_id": "normal_didnow_verification_1759153983_0",
+      "timestamp": "2025-09-29T22:00:03.882908",
+      "event_type": "VERIFICATION",
+      "holder_did": "did:example:didnow_holder_0",
+      "verifier_id": "did:example:didnow_verifier_0",
+      "vc_hash": "vc_didnow_0",
+      "label": "benign",
+      "optional": {
+        "issuer_did": "did:example:didnow_issuer_0",
+        "platform": "didnow",
+        "metadata": {
+          "platform": "didnow",
+          "threat": false,
+          "normal_operation": true,
+          "user_agent": "didnow_client_v1.0",
+          "ip_address": "192.168.1.9"
+        }
+      }
+    },
+    {
+      "event_id": "normal_didnow_presentation_1759153983_1",
+      "timestamp": "2025-09-29T22:11:03.882938",
+      "event_type": "PRESENTATION",
+      "holder_did": "did:example:didnow_holder_1",
+      "verifier_id": "did:example:didnow_verifier_1",
+      "vc_hash": "vc_didnow_1",
+      "label": "benign",
+      "optional": {
+        "issuer_did": "did:example:didnow_issuer_1",
+        "platform": "didnow",
+        "metadata": {
+          "platform": "didnow",
+          "threat": false,
+          "normal_operation": true,
+          "user_agent": "didnow_client_v1.0",
+          "ip_address": "192.168.1.139"
+        }
+      }
+    },
+    {
+      "event_id": "normal_veramo_revocation_1759153983_2",
+      "timestamp": "2025-09-29T22:11:03.882951",
+      "event_type": "REVOCATION",
+      "holder_did": "did:example:veramo_holder_2",
+      "verifier_id": "",
+      "vc_hash": "vc_veramo_2",
+      "label": "benign",
+      "optional": {
+        "issuer_did": "did:example:veramo_issuer_2",
+        "platform": "veramo",
+        "metadata": {
+          "platform": "veramo",
+          "threat": false,
+          "normal_operation": true,
+          "user_agent": "veramo_client_v1.0",
+          "ip_address": "192.168.1.122"
+        }
+      }
+    },
+    {
+      "event_id": "normal_didnow_did_creation_1759153983_3",
+      "timestamp": "2025-09-29T22:04:03.882960",
+      "event_type": "DID_CREATION",
+      "holder_did": "did:example:didnow_holder_3",
+      "verifier_id": "",
+      "vc_hash": "vc_didnow_3",
+      "label": "benign",
+      "optional": {
+        "issuer_did": "did:example:didnow_issuer_3",
+        "platform": "didnow",
+        "metadata": {
+          "platform": "didnow",
+          "threat": false,
+          "normal_operation": true,
+          "user_agent": "didnow_client_v1.0",
+          "ip_address": "192.168.1.181"
+        }
+      }
+    },
+    {
+      "event_id": "normal_sovrin_verification_1759153983_4",
+      "timestamp": "2025-09-29T22:28:03.882968",
+      "event_type": "VERIFICATION",
+      "holder_did": "did:example:sovrin_holder_4",
+      "verifier_id": "did:example:sovrin_verifier_4",
+      "vc_hash": "vc_sovrin_4",
+      "label": "benign",
+      "optional": {
+        "issuer_did": "did:example:sovrin_issuer_4",
+        "platform": "sovrin",
+        "metadata": {
+          "platform": "sovrin",
+          "threat": false,
+          "normal_operation": true,
+          "user_agent": "sovrin_client_v1.0",
+          "ip_address": "192.168.1.143"
+        }
+      }
+    },
+    {
+      "event_id": "normal_sovrin_did_creation_1759153983_5",
+      "timestamp": "2025-09-29T22:49:03.882982",
+      "event_type": "DID_CREATION",
+      "holder_did": "did:example:sovrin_holder_5",
+      "verifier_id": "",
+      "vc_hash": "vc_sovrin_5",
+      "label": "benign",
+      "optional": {
+        "issuer_did": "did:example:sovrin_issuer_5",
+        "platform": "sovrin",
+        "metadata": {
+          "platform": "sovrin",
+          "threat": false,
+          "normal_operation": true,
+          "user_agent": "sovrin_client_v1.0",
+          "ip_address": "192.168.1.77"
+        }
+      }
+    },
+    {
+      "event_id": "normal_sovrin_revocation_1759153983_6",
+      "timestamp": "2025-09-29T22:05:03.882989",
+      "event_type": "REVOCATION",
+      "holder_did": "did:example:sovrin_holder_6",
+      "verifier_id": "",
+      "vc_hash": "vc_sovrin_6",
+      "label": "benign",
+      "optional": {
+        "issuer_did": "did:example:sovrin_issuer_6",
+        "platform": "sovrin",
+        "metadata": {
+          "platform": "sovrin",
+          "threat": false,
+          "normal_operation": true,
+          "user_agent": "sovrin_client_v1.0",
+          "ip_address": "192.168.1.110"
+        }
+      }
+    },
+    {
+      "event_id": "normal_sovrin_presentation_1759153983_7",
+      "timestamp": "2025-09-29T22:21:03.882996",
+      "event_type": "PRESENTATION",
+      "holder_did": "did:example:sovrin_holder_7",
+      "verifier_id": "did:example:sovrin_verifier_7",
+      "vc_hash": "vc_sovrin_7",
+      "label": "benign",
+      "optional": {
+        "issuer_did": "did:example:sovrin_issuer_7",
+        "platform": "sovrin",
+        "metadata": {
+          "platform": "sovrin",
+          "threat": false,
+          "normal_operation": true,
+          "user_agent": "sovrin_client_v1.0",
+          "ip_address": "192.168.1.169"
+        }
+      }
+    },
+    {
+      "event_id": "normal_didnow_did_creation_1759153983_8",
+      "timestamp": "2025-09-29T22:32:03.883003",
+      "event_type": "DID_CREATION",
+      "holder_did": "did:example:didnow_holder_8",
+      "verifier_id": "",
+      "vc_hash": "vc_didnow_8",
+      "label": "benign",
+      "optional": {
+        "issuer_did": "did:example:didnow_issuer_8",
+        "platform": "didnow",
+        "metadata": {
+          "platform": "didnow",
+          "threat": false,
+          "normal_operation": true,
+          "user_agent": "didnow_client_v1.0",
+          "ip_address": "192.168.1.151"
+        }
+      }
+    },
+    {
+      "event_id": "normal_sovrin_verification_1759153983_9",
+      "timestamp": "2025-09-29T21:53:03.883009",
+      "event_type": "VERIFICATION",
+      "holder_did": "did:example:sovrin_holder_9",
+      "verifier_id": "did:example:sovrin_verifier_9",
+      "vc_hash": "vc_sovrin_9",
+      "label": "benign",
+      "optional": {
+        "issuer_did": "did:example:sovrin_issuer_9",
+        "platform": "sovrin",
+        "metadata": {
+          "platform": "sovrin",
+          "threat": false,
+          "normal_operation": true,
+          "user_agent": "sovrin_client_v1.0",
+          "ip_address": "192.168.1.111"
+        }
+      }
+    },
+    {
+      "event_id": "normal_didnow_verification_1759153983_10",
+      "timestamp": "2025-09-29T22:44:03.883016",
+      "event_type": "VERIFICATION",
+      "holder_did": "did:example:didnow_holder_10",
+      "verifier_id": "did:example:didnow_verifier_10",
+      "vc_hash": "vc_didnow_10",
+      "label": "benign",
+      "optional": {
+        "issuer_did": "did:example:didnow_issuer_10",
+        "platform": "didnow",
+        "metadata": {
+          "platform": "didnow",
+          "threat": false,
+          "normal_operation": true,
+          "user_agent": "didnow_client_v1.0",
+          "ip_address": "192.168.1.133"
+        }
+      }
+    },
+    {
+      "event_id": "normal_sovrin_did_creation_1759153983_11",
+      "timestamp": "2025-09-29T22:23:03.883023",
+      "event_type": "DID_CREATION",
+      "holder_did": "did:example:sovrin_holder_11",
+      "verifier_id": "",
+      "vc_hash": "vc_sovrin_11",
+      "label": "benign",
+      "optional": {
+        "issuer_did": "did:example:sovrin_issuer_11",
+        "platform": "sovrin",
+        "metadata": {
+          "platform": "sovrin",
+          "threat": false,
+          "normal_operation": true,
+          "user_agent": "sovrin_client_v1.0",
+          "ip_address": "192.168.1.44"
+        }
+      }
+    },
+    {
+      "event_id": "normal_didnow_issuance_1759153983_12",
+      "timestamp": "2025-09-29T22:26:03.883030",
+      "event_type": "ISSUANCE",
+      "holder_did": "did:example:didnow_holder_12",
+      "verifier_id": "",
+      "vc_hash": "vc_didnow_12",
+      "label": "benign",
+      "optional": {
+        "issuer_did": "did:example:didnow_issuer_12",
+        "platform": "didnow",
+        "metadata": {
+          "platform": "didnow",
+          "threat": false,
+          "normal_operation": true,
+          "user_agent": "didnow_client_v1.0",
+          "ip_address": "192.168.1.75"
+        }
+      }
+    },
+    {
+      "event_id": "normal_veramo_verification_1759153983_13",
+      "timestamp": "2025-09-29T22:20:03.883037",
+      "event_type": "VERIFICATION",
+      "holder_did": "did:example:veramo_holder_13",
+      "verifier_id": "did:example:veramo_verifier_13",
+      "vc_hash": "vc_veramo_13",
+      "label": "benign",
+      "optional": {
+        "issuer_did": "did:example:veramo_issuer_13",
+        "platform": "veramo",
+        "metadata": {
+          "platform": "veramo",
+          "threat": false,
+          "normal_operation": true,
+          "user_agent": "veramo_client_v1.0",
+          "ip_address": "192.168.1.149"
+        }
+      }
+    },
+    {
+      "event_id": "normal_veramo_verification_1759153983_14",
+      "timestamp": "2025-09-29T21:53:03.883044",
+      "event_type": "VERIFICATION",
+      "holder_did": "did:example:veramo_holder_14",
+      "verifier_id": "did:example:veramo_verifier_14",
+      "vc_hash": "vc_veramo_14",
+      "label": "benign",
+      "optional": {
+        "issuer_did": "did:example:veramo_issuer_14",
+        "platform": "veramo",
+        "metadata": {
+          "platform": "veramo",
+          "threat": false,
+          "normal_operation": true,
+          "user_agent": "veramo_client_v1.0",
+          "ip_address": "192.168.1.187"
+        }
+      }
+    },
+    {
+      "event_id": "normal_sovrin_issuance_1759153983_15",
+      "timestamp": "2025-09-29T22:25:03.883051",
+      "event_type": "ISSUANCE",
+      "holder_did": "did:example:sovrin_holder_15",
+      "verifier_id": "",
+      "vc_hash": "vc_sovrin_15",
+      "label": "benign",
+      "optional": {
+        "issuer_did": "did:example:sovrin_issuer_15",
+        "platform": "sovrin",
+        "metadata": {
+          "platform": "sovrin",
+          "threat": false,
+          "normal_operation": true,
+          "user_agent": "sovrin_client_v1.0",
+          "ip_address": "192.168.1.235"
+        }
+      }
+    },
+    {
+      "event_id": "normal_veramo_presentation_1759153983_16",
+      "timestamp": "2025-09-29T22:19:03.883057",
+      "event_type": "PRESENTATION",
+      "holder_did": "did:example:veramo_holder_16",
+      "verifier_id": "did:example:veramo_verifier_16",
+      "vc_hash": "vc_veramo_16",
+      "label": "benign",
+      "optional": {
+        "issuer_did": "did:example:veramo_issuer_16",
+        "platform": "veramo",
+        "metadata": {
+          "platform": "veramo",
+          "threat": false,
+          "normal_operation": true,
+          "user_agent": "veramo_client_v1.0",
+          "ip_address": "192.168.1.99"
+        }
+      }
+    },
+    {
+      "event_id": "normal_sovrin_did_creation_1759153983_17",
+      "timestamp": "2025-09-29T21:57:03.883067",
+      "event_type": "DID_CREATION",
+      "holder_did": "did:example:sovrin_holder_17",
+      "verifier_id": "",
+      "vc_hash": "vc_sovrin_17",
+      "label": "benign",
+      "optional": {
+        "issuer_did": "did:example:sovrin_issuer_17",
+        "platform": "sovrin",
+        "metadata": {
+          "platform": "sovrin",
+          "threat": false,
+          "normal_operation": true,
+          "user_agent": "sovrin_client_v1.0",
+          "ip_address": "192.168.1.3"
+        }
+      }
+    },
+    {
+      "event_id": "normal_didnow_revocation_1759153983_18",
+      "timestamp": "2025-09-29T22:35:03.883074",
+      "event_type": "REVOCATION",
+      "holder_did": "did:example:didnow_holder_18",
+      "verifier_id": "",
+      "vc_hash": "vc_didnow_18",
+      "label": "benign",
+      "optional": {
+        "issuer_did": "did:example:didnow_issuer_18",
+        "platform": "didnow",
+        "metadata": {
+          "platform": "didnow",
+          "threat": false,
+          "normal_operation": true,
+          "user_agent": "didnow_client_v1.0",
+          "ip_address": "192.168.1.87"
+        }
+      }
+    },
+    {
+      "event_id": "normal_veramo_verification_1759153983_19",
+      "timestamp": "2025-09-29T22:14:03.883080",
+      "event_type": "VERIFICATION",
+      "holder_did": "did:example:veramo_holder_19",
+      "verifier_id": "did:example:veramo_verifier_19",
+      "vc_hash": "vc_veramo_19",
+      "label": "benign",
+      "optional": {
+        "issuer_did": "did:example:veramo_issuer_19",
+        "platform": "veramo",
+        "metadata": {
+          "platform": "veramo",
+          "threat": false,
+          "normal_operation": true,
+          "user_agent": "veramo_client_v1.0",
+          "ip_address": "192.168.1.165"
+        }
+      }
+    },
+    {
+      "event_id": "credential_reuse_1759153983_0",
+      "timestamp": "2025-09-29T22:53:03.883227",
+      "event_type": "VERIFICATION",
+      "holder_did": "did:example:attacker",
+      "verifier_id": "did:example:verifier_0",
+      "vc_hash": "stolen_vc_12345",
+      "label": "malicious",
+      "optional": {
+        "issuer_did": "did:example:legitimate_issuer",
+        "platform": "didnow",
+        "metadata": {
+          "platform": "didnow",
+          "threat": true,
+          "attack_type": "credential_reuse",
+          "reuse_count": 1,
+          "suspicious_pattern": true
+        }
+      }
+    },
+    {
+      "event_id": "credential_reuse_1759153983_1",
+      "timestamp": "2025-09-29T22:55:03.883227",
+      "event_type": "VERIFICATION",
+      "holder_did": "did:example:attacker",
+      "verifier_id": "did:example:verifier_1",
+      "vc_hash": "stolen_vc_12345",
+      "label": "malicious",
+      "optional": {
+        "issuer_did": "did:example:legitimate_issuer",
+        "platform": "didnow",
+        "metadata": {
+          "platform": "didnow",
+          "threat": true,
+          "attack_type": "credential_reuse",
+          "reuse_count": 2,
+          "suspicious_pattern": true
+        }
+      }
+    },
+    {
+      "event_id": "credential_reuse_1759153983_2",
+      "timestamp": "2025-09-29T22:57:03.883227",
+      "event_type": "VERIFICATION",
+      "holder_did": "did:example:attacker",
+      "verifier_id": "did:example:verifier_2",
+      "vc_hash": "stolen_vc_12345",
+      "label": "malicious",
+      "optional": {
+        "issuer_did": "did:example:legitimate_issuer",
+        "platform": "didnow",
+        "metadata": {
+          "platform": "didnow",
+          "threat": true,
+          "attack_type": "credential_reuse",
+          "reuse_count": 3,
+          "suspicious_pattern": true
+        }
+      }
+    },
+    {
+      "event_id": "credential_reuse_1759153983_3",
+      "timestamp": "2025-09-29T22:59:03.883227",
+      "event_type": "VERIFICATION",
+      "holder_did": "did:example:attacker",
+      "verifier_id": "did:example:verifier_3",
+      "vc_hash": "stolen_vc_12345",
+      "label": "malicious",
+      "optional": {
+        "issuer_did": "did:example:legitimate_issuer",
+        "platform": "didnow",
+        "metadata": {
+          "platform": "didnow",
+          "threat": true,
+          "attack_type": "credential_reuse",
+          "reuse_count": 4,
+          "suspicious_pattern": true
+        }
+      }
+    },
+    {
+      "event_id": "credential_reuse_1759153983_4",
+      "timestamp": "2025-09-29T23:01:03.883227",
+      "event_type": "VERIFICATION",
+      "holder_did": "did:example:attacker",
+      "verifier_id": "did:example:verifier_4",
+      "vc_hash": "stolen_vc_12345",
+      "label": "malicious",
+      "optional": {
+        "issuer_did": "did:example:legitimate_issuer",
+        "platform": "didnow",
+        "metadata": {
+          "platform": "didnow",
+          "threat": true,
+          "attack_type": "credential_reuse",
+          "reuse_count": 5,
+          "suspicious_pattern": true
+        }
+      }
+    },
+    {
+      "event_id": "issuer_impersonation_1759153983_0",
+      "timestamp": "2025-09-29T22:53:03.883339",
+      "event_type": "ISSUANCE",
+      "holder_did": "did:example:holder_victim",
+      "verifier_id": "",
+      "vc_hash": "fake_vc_0",
+      "label": "malicious",
+      "optional": {
+        "issuer_did": "did:example:fake_issuer",
+        "platform": "veramo",
+        "metadata": {
+          "platform": "veramo",
+          "threat": true,
+          "attack_type": "issuer_impersonation",
+          "fake_issuer": true,
+          "legitimate_issuer": "did:example:real_issuer",
+          "credential_type": "fake_identity"
+        }
+      }
+    },
+    {
+      "event_id": "issuer_impersonation_1759153983_1",
+      "timestamp": "2025-09-29T22:43:03.883346",
+      "event_type": "ISSUANCE",
+      "holder_did": "did:example:holder_victim",
+      "verifier_id": "",
+      "vc_hash": "fake_vc_1",
+      "label": "malicious",
+      "optional": {
+        "issuer_did": "did:example:fake_issuer",
+        "platform": "veramo",
+        "metadata": {
+          "platform": "veramo",
+          "threat": true,
+          "attack_type": "issuer_impersonation",
+          "fake_issuer": true,
+          "legitimate_issuer": "did:example:real_issuer",
+          "credential_type": "fake_identity"
+        }
+      }
+    },
+    {
+      "event_id": "issuer_impersonation_1759153983_2",
+      "timestamp": "2025-09-29T22:33:03.883351",
+      "event_type": "ISSUANCE",
+      "holder_did": "did:example:holder_victim",
+      "verifier_id": "",
+      "vc_hash": "fake_vc_2",
+      "label": "malicious",
+      "optional": {
+        "issuer_did": "did:example:fake_issuer",
+        "platform": "veramo",
+        "metadata": {
+          "platform": "veramo",
+          "threat": true,
+          "attack_type": "issuer_impersonation",
+          "fake_issuer": true,
+          "legitimate_issuer": "did:example:real_issuer",
+          "credential_type": "fake_identity"
+        }
+      }
+    },
+    {
+      "event_id": "rapid_event_1759153983_0",
+      "timestamp": "2025-09-29T22:53:03.883430",
+      "event_type": "ISSUANCE",
+      "holder_did": "did:example:rapid_attacker",
+      "verifier_id": "did:example:verifier",
+      "vc_hash": "rapid_vc_0",
+      "label": "malicious",
+      "optional": {
+        "issuer_did": "did:example:issuer",
+        "platform": "sovrin",
+        "metadata": {
+          "platform": "sovrin",
+          "threat": true,
+          "attack_type": "rapid_events",
+          "event_interval": 6,
+          "total_events": 10,
+          "time_window": 60
+        }
+      }
+    },
+    {
+      "event_id": "rapid_event_1759153983_1",
+      "timestamp": "2025-09-29T22:53:09.883430",
+      "event_type": "PRESENTATION",
+      "holder_did": "did:example:rapid_attacker",
+      "verifier_id": "",
+      "vc_hash": "rapid_vc_1",
+      "label": "malicious",
+      "optional": {
+        "issuer_did": "did:example:issuer",
+        "platform": "sovrin",
+        "metadata": {
+          "platform": "sovrin",
+          "threat": true,
+          "attack_type": "rapid_events",
+          "event_interval": 6,
+          "total_events": 10,
+          "time_window": 60
+        }
+      }
+    },
+    {
+      "event_id": "rapid_event_1759153983_2",
+      "timestamp": "2025-09-29T22:53:15.883430",
+      "event_type": "VERIFICATION",
+      "holder_did": "did:example:rapid_attacker",
+      "verifier_id": "did:example:verifier",
+      "vc_hash": "rapid_vc_2",
+      "label": "malicious",
+      "optional": {
+        "issuer_did": "did:example:issuer",
+        "platform": "sovrin",
+        "metadata": {
+          "platform": "sovrin",
+          "threat": true,
+          "attack_type": "rapid_events",
+          "event_interval": 6,
+          "total_events": 10,
+          "time_window": 60
+        }
+      }
+    },
+    {
+      "event_id": "rapid_event_1759153983_3",
+      "timestamp": "2025-09-29T22:53:21.883430",
+      "event_type": "VERIFICATION",
+      "holder_did": "did:example:rapid_attacker",
+      "verifier_id": "",
+      "vc_hash": "rapid_vc_3",
+      "label": "malicious",
+      "optional": {
+        "issuer_did": "did:example:issuer",
+        "platform": "sovrin",
+        "metadata": {
+          "platform": "sovrin",
+          "threat": true,
+          "attack_type": "rapid_events",
+          "event_interval": 6,
+          "total_events": 10,
+          "time_window": 60
+        }
+      }
+    },
+    {
+      "event_id": "rapid_event_1759153983_4",
+      "timestamp": "2025-09-29T22:53:27.883430",
+      "event_type": "PRESENTATION",
+      "holder_did": "did:example:rapid_attacker",
+      "verifier_id": "did:example:verifier",
+      "vc_hash": "rapid_vc_4",
+      "label": "malicious",
+      "optional": {
+        "issuer_did": "did:example:issuer",
+        "platform": "sovrin",
+        "metadata": {
+          "platform": "sovrin",
+          "threat": true,
+          "attack_type": "rapid_events",
+          "event_interval": 6,
+          "total_events": 10,
+          "time_window": 60
+        }
+      }
+    },
+    {
+      "event_id": "rapid_event_1759153983_5",
+      "timestamp": "2025-09-29T22:53:33.883430",
+      "event_type": "PRESENTATION",
+      "holder_did": "did:example:rapid_attacker",
+      "verifier_id": "",
+      "vc_hash": "rapid_vc_5",
+      "label": "malicious",
+      "optional": {
+        "issuer_did": "did:example:issuer",
+        "platform": "sovrin",
+        "metadata": {
+          "platform": "sovrin",
+          "threat": true,
+          "attack_type": "rapid_events",
+          "event_interval": 6,
+          "total_events": 10,
+          "time_window": 60
+        }
+      }
+    },
+    {
+      "event_id": "rapid_event_1759153983_6",
+      "timestamp": "2025-09-29T22:53:39.883430",
+      "event_type": "ISSUANCE",
+      "holder_did": "did:example:rapid_attacker",
+      "verifier_id": "did:example:verifier",
+      "vc_hash": "rapid_vc_6",
+      "label": "malicious",
+      "optional": {
+        "issuer_did": "did:example:issuer",
+        "platform": "sovrin",
+        "metadata": {
+          "platform": "sovrin",
+          "threat": true,
+          "attack_type": "rapid_events",
+          "event_interval": 6,
+          "total_events": 10,
+          "time_window": 60
+        }
+      }
+    },
+    {
+      "event_id": "rapid_event_1759153983_7",
+      "timestamp": "2025-09-29T22:53:45.883430",
+      "event_type": "VERIFICATION",
+      "holder_did": "did:example:rapid_attacker",
+      "verifier_id": "",
+      "vc_hash": "rapid_vc_7",
+      "label": "malicious",
+      "optional": {
+        "issuer_did": "did:example:issuer",
+        "platform": "sovrin",
+        "metadata": {
+          "platform": "sovrin",
+          "threat": true,
+          "attack_type": "rapid_events",
+          "event_interval": 6,
+          "total_events": 10,
+          "time_window": 60
+        }
+      }
+    },
+    {
+      "event_id": "rapid_event_1759153983_8",
+      "timestamp": "2025-09-29T22:53:51.883430",
+      "event_type": "ISSUANCE",
+      "holder_did": "did:example:rapid_attacker",
+      "verifier_id": "did:example:verifier",
+      "vc_hash": "rapid_vc_8",
+      "label": "malicious",
+      "optional": {
+        "issuer_did": "did:example:issuer",
+        "platform": "sovrin",
+        "metadata": {
+          "platform": "sovrin",
+          "threat": true,
+          "attack_type": "rapid_events",
+          "event_interval": 6,
+          "total_events": 10,
+          "time_window": 60
+        }
+      }
+    },
+    {
+      "event_id": "rapid_event_1759153983_9",
+      "timestamp": "2025-09-29T22:53:57.883430",
+      "event_type": "VERIFICATION",
+      "holder_did": "did:example:rapid_attacker",
+      "verifier_id": "",
+      "vc_hash": "rapid_vc_9",
+      "label": "malicious",
+      "optional": {
+        "issuer_did": "did:example:issuer",
+        "platform": "sovrin",
+        "metadata": {
+          "platform": "sovrin",
+          "threat": true,
+          "attack_type": "rapid_events",
+          "event_interval": 6,
+          "total_events": 10,
+          "time_window": 60
+        }
+      }
+    },
+    {
+      "event_id": "time_anomaly_1759153983_0",
+      "timestamp": "2025-09-29T23:03:03.883560",
+      "event_type": "VERIFICATION",
+      "holder_did": "did:example:time_attacker",
+      "verifier_id": "did:example:verifier",
+      "vc_hash": "anomaly_vc_0",
+      "label": "malicious",
+      "optional": {
+        "issuer_did": "did:example:issuer",
+        "platform": "didnow",
+        "metadata": {
+          "platform": "didnow",
+          "threat": true,
+          "attack_type": "time_anomaly",
+          "timestamp_anomaly": true,
+          "expected_order": 0,
+          "actual_timestamp": "2025-09-29T23:03:03.883560"
+        }
+      }
+    },
+    {
+      "event_id": "time_anomaly_1759153983_1",
+      "timestamp": "2025-09-29T22:48:03.883560",
+      "event_type": "VERIFICATION",
+      "holder_did": "did:example:time_attacker",
+      "verifier_id": "did:example:verifier",
+      "vc_hash": "anomaly_vc_1",
+      "label": "malicious",
+      "optional": {
+        "issuer_did": "did:example:issuer",
+        "platform": "didnow",
+        "metadata": {
+          "platform": "didnow",
+          "threat": true,
+          "attack_type": "time_anomaly",
+          "timestamp_anomaly": true,
+          "expected_order": 1,
+          "actual_timestamp": "2025-09-29T22:48:03.883560"
+        }
+      }
+    },
+    {
+      "event_id": "time_anomaly_1759153983_2",
+      "timestamp": "2025-09-29T23:08:03.883560",
+      "event_type": "VERIFICATION",
+      "holder_did": "did:example:time_attacker",
+      "verifier_id": "did:example:verifier",
+      "vc_hash": "anomaly_vc_2",
+      "label": "malicious",
+      "optional": {
+        "issuer_did": "did:example:issuer",
+        "platform": "didnow",
+        "metadata": {
+          "platform": "didnow",
+          "threat": true,
+          "attack_type": "time_anomaly",
+          "timestamp_anomaly": true,
+          "expected_order": 2,
+          "actual_timestamp": "2025-09-29T23:08:03.883560"
+        }
+      }
+    },
+    {
+      "event_id": "time_anomaly_1759153983_3",
+      "timestamp": "2025-09-29T22:51:03.883560",
+      "event_type": "VERIFICATION",
+      "holder_did": "did:example:time_attacker",
+      "verifier_id": "did:example:verifier",
+      "vc_hash": "anomaly_vc_3",
+      "label": "malicious",
+      "optional": {
+        "issuer_did": "did:example:issuer",
+        "platform": "didnow",
+        "metadata": {
+          "platform": "didnow",
+          "threat": true,
+          "attack_type": "time_anomaly",
+          "timestamp_anomaly": true,
+          "expected_order": 3,
+          "actual_timestamp": "2025-09-29T22:51:03.883560"
+        }
+      }
+    },
+    {
+      "event_id": "cross_platform_1759153983_0",
+      "timestamp": "2025-09-29T22:53:03.883667",
+      "event_type": "ISSUANCE",
+      "holder_did": "did:example:cross_attacker",
+      "verifier_id": "",
+      "vc_hash": "cross_platform_vc",
+      "label": "malicious",
+      "optional": {
+        "issuer_did": "did:example:issuer",
+        "platform": "didnow",
+        "metadata": {
+          "platform": "didnow",
+          "threat": true,
+          "attack_type": "cross_platform",
+          "attack_sequence": 1,
+          "total_platforms": 3,
+          "coordinated_attack": true
+        }
+      }
+    },
+    {
+      "event_id": "cross_platform_1759153983_1",
+      "timestamp": "2025-09-29T22:58:03.883667",
+      "event_type": "VERIFICATION",
+      "holder_did": "did:example:cross_attacker",
+      "verifier_id": "did:example:verifier",
+      "vc_hash": "cross_platform_vc",
+      "label": "malicious",
+      "optional": {
+        "issuer_did": "did:example:issuer",
+        "platform": "veramo",
+        "metadata": {
+          "platform": "veramo",
+          "threat": true,
+          "attack_type": "cross_platform",
+          "attack_sequence": 2,
+          "total_platforms": 3,
+          "coordinated_attack": true
+        }
+      }
+    },
+    {
+      "event_id": "cross_platform_1759153983_2",
+      "timestamp": "2025-09-29T23:03:03.883667",
+      "event_type": "VERIFICATION",
+      "holder_did": "did:example:cross_attacker",
+      "verifier_id": "did:example:verifier",
+      "vc_hash": "cross_platform_vc",
+      "label": "malicious",
+      "optional": {
+        "issuer_did": "did:example:issuer",
+        "platform": "sovrin",
+        "metadata": {
+          "platform": "sovrin",
+          "threat": true,
+          "attack_type": "cross_platform",
+          "attack_sequence": 3,
+          "total_platforms": 3,
+          "coordinated_attack": true
+        }
+      }
+    },
+    {
+      "event_id": "credential_theft_1759153983_0",
+      "timestamp": "2025-09-29T22:53:03.883760",
+      "event_type": "PRESENTATION",
+      "holder_did": "did:example:thief",
+      "verifier_id": "did:example:verifier",
+      "vc_hash": "stolen_credential_123",
+      "label": "malicious",
+      "optional": {
+        "issuer_did": "did:example:original_holder",
+        "platform": "veramo",
+        "metadata": {
+          "platform": "veramo",
+          "threat": true,
+          "attack_type": "credential_theft",
+          "original_holder": "did:example:original_holder",
+          "thief_identity": "did:example:thief",
+          "stolen_credential": true
+        }
+      }
+    },
+    {
+      "event_id": "credential_theft_1759153983_1",
+      "timestamp": "2025-09-29T22:38:03.883767",
+      "event_type": "PRESENTATION",
+      "holder_did": "did:example:thief",
+      "verifier_id": "did:example:verifier",
+      "vc_hash": "stolen_credential_123",
+      "label": "malicious",
+      "optional": {
+        "issuer_did": "did:example:original_holder",
+        "platform": "veramo",
+        "metadata": {
+          "platform": "veramo",
+          "threat": true,
+          "attack_type": "credential_theft",
+          "original_holder": "did:example:original_holder",
+          "thief_identity": "did:example:thief",
+          "stolen_credential": true
+        }
+      }
+    },
+    {
+      "event_id": "credential_theft_1759153983_2",
+      "timestamp": "2025-09-29T22:23:03.883772",
+      "event_type": "PRESENTATION",
+      "holder_did": "did:example:thief",
+      "verifier_id": "did:example:verifier",
+      "vc_hash": "stolen_credential_123",
+      "label": "malicious",
+      "optional": {
+        "issuer_did": "did:example:original_holder",
+        "platform": "veramo",
+        "metadata": {
+          "platform": "veramo",
+          "threat": true,
+          "attack_type": "credential_theft",
+          "original_holder": "did:example:original_holder",
+          "thief_identity": "did:example:thief",
+          "stolen_credential": true
+        }
+      }
+    },
+    {
+      "event_id": "credential_theft_1759153983_3",
+      "timestamp": "2025-09-29T22:08:03.883776",
+      "event_type": "PRESENTATION",
+      "holder_did": "did:example:thief",
+      "verifier_id": "did:example:verifier",
+      "vc_hash": "stolen_credential_123",
+      "label": "malicious",
+      "optional": {
+        "issuer_did": "did:example:original_holder",
+        "platform": "veramo",
+        "metadata": {
+          "platform": "veramo",
+          "threat": true,
+          "attack_type": "credential_theft",
+          "original_holder": "did:example:original_holder",
+          "thief_identity": "did:example:thief",
+          "stolen_credential": true
+        }
+      }
+    },
+    {
+      "event_id": "did_hijack_update_1759153983",
+      "timestamp": "2025-09-29T22:43:03.883885",
+      "event_type": "DID_UPDATE",
+      "holder_did": "did:example:hijacker",
+      "verifier_id": "",
+      "vc_hash": "",
+      "label": "malicious",
+      "optional": {
+        "issuer_did": "",
+        "platform": "sovrin",
+        "metadata": {
+          "platform": "sovrin",
+          "threat": true,
+          "attack_type": "did_hijacking",
+          "original_owner": "did:example:original_user",
+          "hijacker": "did:example:hijacker",
+          "hijack_method": "private_key_compromise"
+        }
+      }
+    },
+    {
+      "event_id": "did_hijack_deactivate_1759153983",
+      "timestamp": "2025-09-29T22:48:03.883891",
+      "event_type": "DID_DEACTIVATION",
+      "holder_did": "did:example:hijacker",
+      "verifier_id": "",
+      "vc_hash": "",
+      "label": "malicious",
+      "optional": {
+        "issuer_did": "",
+        "platform": "sovrin",
+        "metadata": {
+          "platform": "sovrin",
+          "threat": true,
+          "attack_type": "did_hijacking",
+          "deactivation_by_hijacker": true
+        }
+      }
+    },
+    {
+      "event_id": "sybil_identity_1759153983_0",
+      "timestamp": "2025-09-29T22:53:03.883971",
+      "event_type": "DID_CREATION",
+      "holder_did": "did:example:sybil_0",
+      "verifier_id": "",
+      "vc_hash": "",
+      "label": "malicious",
+      "optional": {
+        "issuer_did": "",
+        "platform": "didnow",
+        "metadata": {
+          "platform": "didnow",
+          "threat": true,
+          "attack_type": "sybil_attack",
+          "fake_identity": true,
+          "sybil_network": true,
+          "identity_count": 1,
+          "controlled_by": "did:example:sybil_controller"
+        }
+      }
+    },
+    {
+      "event_id": "sybil_identity_1759153983_1",
+      "timestamp": "2025-09-29T22:50:03.883978",
+      "event_type": "DID_CREATION",
+      "holder_did": "did:example:sybil_1",
+      "verifier_id": "",
+      "vc_hash": "",
+      "label": "malicious",
+      "optional": {
+        "issuer_did": "",
+        "platform": "didnow",
+        "metadata": {
+          "platform": "didnow",
+          "threat": true,
+          "attack_type": "sybil_attack",
+          "fake_identity": true,
+          "sybil_network": true,
+          "identity_count": 2,
+          "controlled_by": "did:example:sybil_controller"
+        }
+      }
+    },
+    {
+      "event_id": "sybil_identity_1759153983_2",
+      "timestamp": "2025-09-29T22:47:03.883987",
+      "event_type": "DID_CREATION",
+      "holder_did": "did:example:sybil_2",
+      "verifier_id": "",
+      "vc_hash": "",
+      "label": "malicious",
+      "optional": {
+        "issuer_did": "",
+        "platform": "didnow",
+        "metadata": {
+          "platform": "didnow",
+          "threat": true,
+          "attack_type": "sybil_attack",
+          "fake_identity": true,
+          "sybil_network": true,
+          "identity_count": 3,
+          "controlled_by": "did:example:sybil_controller"
+        }
+      }
+    },
+    {
+      "event_id": "sybil_identity_1759153983_3",
+      "timestamp": "2025-09-29T22:44:03.883992",
+      "event_type": "DID_CREATION",
+      "holder_did": "did:example:sybil_3",
+      "verifier_id": "",
+      "vc_hash": "",
+      "label": "malicious",
+      "optional": {
+        "issuer_did": "",
+        "platform": "didnow",
+        "metadata": {
+          "platform": "didnow",
+          "threat": true,
+          "attack_type": "sybil_attack",
+          "fake_identity": true,
+          "sybil_network": true,
+          "identity_count": 4,
+          "controlled_by": "did:example:sybil_controller"
+        }
+      }
+    },
+    {
+      "event_id": "sybil_identity_1759153983_4",
+      "timestamp": "2025-09-29T22:41:03.883996",
+      "event_type": "DID_CREATION",
+      "holder_did": "did:example:sybil_4",
+      "verifier_id": "",
+      "vc_hash": "",
+      "label": "malicious",
+      "optional": {
+        "issuer_did": "",
+        "platform": "didnow",
+        "metadata": {
+          "platform": "didnow",
+          "threat": true,
+          "attack_type": "sybil_attack",
+          "fake_identity": true,
+          "sybil_network": true,
+          "identity_count": 5,
+          "controlled_by": "did:example:sybil_controller"
+        }
+      }
+    },
+    {
+      "event_id": "sybil_identity_1759153983_5",
+      "timestamp": "2025-09-29T22:38:03.884003",
+      "event_type": "DID_CREATION",
+      "holder_did": "did:example:sybil_5",
+      "verifier_id": "",
+      "vc_hash": "",
+      "label": "malicious",
+      "optional": {
+        "issuer_did": "",
+        "platform": "didnow",
+        "metadata": {
+          "platform": "didnow",
+          "threat": true,
+          "attack_type": "sybil_attack",
+          "fake_identity": true,
+          "sybil_network": true,
+          "identity_count": 6,
+          "controlled_by": "did:example:sybil_controller"
+        }
+      }
+    },
+    {
+      "event_id": "veramo_real_1759153983_0",
+      "timestamp": "2025-09-29T22:53:03.966255",
+      "event_type": "DID_CREATION",
+      "holder_did": "did:ethr:0x724648",
+      "verifier_id": "",
+      "vc_hash": "",
+      "label": "benign",
+      "optional": {
+        "issuer_did": "",
+        "platform": "veramo",
+        "metadata": {
+          "platform": "veramo",
+          "threat": false,
+          "plugin_version": "1.0.0",
+          "ethereum_network": "mainnet",
+          "real_plugin_usage": true,
+          "key_type": "secp256k1"
+        }
+      }
+    },
+    {
+      "event_id": "veramo_real_1759153983_1",
+      "timestamp": "2025-09-29T22:51:03.966316",
+      "event_type": "DID_CREATION",
+      "holder_did": "did:ethr:0x914256",
+      "verifier_id": "",
+      "vc_hash": "",
+      "label": "benign",
+      "optional": {
+        "issuer_did": "",
+        "platform": "veramo",
+        "metadata": {
+          "platform": "veramo",
+          "threat": false,
+          "plugin_version": "1.0.0",
+          "ethereum_network": "mainnet",
+          "real_plugin_usage": true,
+          "key_type": "secp256k1"
+        }
+      }
+    },
+    {
+      "event_id": "veramo_real_1759153983_2",
+      "timestamp": "2025-09-29T22:49:03.966351",
+      "event_type": "DID_CREATION",
+      "holder_did": "did:ethr:0x719492",
+      "verifier_id": "",
+      "vc_hash": "",
+      "label": "benign",
+      "optional": {
+        "issuer_did": "",
+        "platform": "veramo",
+        "metadata": {
+          "platform": "veramo",
+          "threat": false,
+          "plugin_version": "1.0.0",
+          "ethereum_network": "mainnet",
+          "real_plugin_usage": true,
+          "key_type": "secp256k1"
+        }
+      }
+    },
+    {
+      "event_id": "veramo_real_1759153983_3",
+      "timestamp": "2025-09-29T22:47:03.966375",
+      "event_type": "DID_CREATION",
+      "holder_did": "did:ethr:0x289358",
+      "verifier_id": "",
+      "vc_hash": "",
+      "label": "benign",
+      "optional": {
+        "issuer_did": "",
+        "platform": "veramo",
+        "metadata": {
+          "platform": "veramo",
+          "threat": false,
+          "plugin_version": "1.0.0",
+          "ethereum_network": "mainnet",
+          "real_plugin_usage": true,
+          "key_type": "secp256k1"
+        }
+      }
+    },
+    {
+      "event_id": "veramo_real_1759153983_4",
+      "timestamp": "2025-09-29T22:45:03.966396",
+      "event_type": "DID_CREATION",
+      "holder_did": "did:ethr:0x652020",
+      "verifier_id": "",
+      "vc_hash": "",
+      "label": "benign",
+      "optional": {
+        "issuer_did": "",
+        "platform": "veramo",
+        "metadata": {
+          "platform": "veramo",
+          "threat": false,
+          "plugin_version": "1.0.0",
+          "ethereum_network": "mainnet",
+          "real_plugin_usage": true,
+          "key_type": "secp256k1"
+        }
+      }
+    },
+    {
+      "event_id": "sovrin_real_1759153983_0",
+      "timestamp": "2025-09-29T22:53:03.966771",
+      "event_type": "PRESENTATION",
+      "holder_did": "did:sov:test9268",
+      "verifier_id": "did:sov:verifier123",
+      "vc_hash": "sovrin_vc_0",
+      "label": "benign",
+      "optional": {
+        "issuer_did": "did:sov:issuer456",
+        "platform": "sovrin",
+        "metadata": {
+          "platform": "sovrin",
+          "threat": false,
+          "network": "testnet",
+          "real_adapter_usage": true,
+          "indy_sdk_version": "1.16.0",
+          "ledger_type": "indy"
+        }
+      }
+    },
+    {
+      "event_id": "sovrin_real_1759153983_1",
+      "timestamp": "2025-09-29T22:50:03.966809",
+      "event_type": "PRESENTATION",
+      "holder_did": "did:sov:test6680",
+      "verifier_id": "did:sov:verifier123",
+      "vc_hash": "sovrin_vc_1",
+      "label": "benign",
+      "optional": {
+        "issuer_did": "did:sov:issuer456",
+        "platform": "sovrin",
+        "metadata": {
+          "platform": "sovrin",
+          "threat": false,
+          "network": "testnet",
+          "real_adapter_usage": true,
+          "indy_sdk_version": "1.16.0",
+          "ledger_type": "indy"
+        }
+      }
+    },
+    {
+      "event_id": "sovrin_real_1759153983_2",
+      "timestamp": "2025-09-29T22:47:03.966868",
+      "event_type": "PRESENTATION",
+      "holder_did": "did:sov:test1417",
+      "verifier_id": "did:sov:verifier123",
+      "vc_hash": "sovrin_vc_2",
+      "label": "benign",
+      "optional": {
+        "issuer_did": "did:sov:issuer456",
+        "platform": "sovrin",
+        "metadata": {
+          "platform": "sovrin",
+          "threat": false,
+          "network": "testnet",
+          "real_adapter_usage": true,
+          "indy_sdk_version": "1.16.0",
+          "ledger_type": "indy"
+        }
+      }
+    },
+    {
+      "event_id": "sovrin_real_1759153983_3",
+      "timestamp": "2025-09-29T22:44:03.966892",
+      "event_type": "PRESENTATION",
+      "holder_did": "did:sov:test7273",
+      "verifier_id": "did:sov:verifier123",
+      "vc_hash": "sovrin_vc_3",
+      "label": "benign",
+      "optional": {
+        "issuer_did": "did:sov:issuer456",
+        "platform": "sovrin",
+        "metadata": {
+          "platform": "sovrin",
+          "threat": false,
+          "network": "testnet",
+          "real_adapter_usage": true,
+          "indy_sdk_version": "1.16.0",
+          "ledger_type": "indy"
+        }
+      }
+    }
+  ],
+  "detection_results": {
+    "threats": [
+      {
+        "event_id": "normal_didnow_verification_1759153983_0",
+        "timestamp": "2025-09-29T22:00:03.882908",
+        "event_type": "VERIFICATION",
+        "threat_detected": false,
+        "threat_type": "none",
+        "confidence": 0.0,
+        "rule_detection": false,
+        "model_detection": false,
+        "details": {
+          "rule_confidence": 0.0,
+          "model_score": 0.0,
+          "rule_explanation": "",
+          "raw_data": {
+            "event_id": "normal_didnow_verification_1759153983_0",
+            "timestamp": "2025-09-29T22:00:03.882908",
+            "event_type": "VERIFICATION",
+            "holder_did": "did:example:didnow_holder_0",
+            "verifier_id": "did:example:didnow_verifier_0",
+            "vc_hash": "vc_didnow_0",
+            "label": "benign",
+            "optional": {
+              "issuer_did": "did:example:didnow_issuer_0",
+              "platform": "didnow",
+              "metadata": {
+                "platform": "didnow",
+                "threat": false,
+                "normal_operation": true,
+                "user_agent": "didnow_client_v1.0",
+                "ip_address": "192.168.1.9"
+              }
+            }
+          }
+        }
+      },
+      {
+        "event_id": "normal_didnow_presentation_1759153983_1",
+        "timestamp": "2025-09-29T22:11:03.882938",
+        "event_type": "PRESENTATION",
+        "threat_detected": false,
+        "threat_type": "none",
+        "confidence": 0.0,
+        "rule_detection": false,
+        "model_detection": false,
+        "details": {
+          "rule_confidence": 0.0,
+          "model_score": 0.0,
+          "rule_explanation": "",
+          "raw_data": {
+            "event_id": "normal_didnow_presentation_1759153983_1",
+            "timestamp": "2025-09-29T22:11:03.882938",
+            "event_type": "PRESENTATION",
+            "holder_did": "did:example:didnow_holder_1",
+            "verifier_id": "did:example:didnow_verifier_1",
+            "vc_hash": "vc_didnow_1",
+            "label": "benign",
+            "optional": {
+              "issuer_did": "did:example:didnow_issuer_1",
+              "platform": "didnow",
+              "metadata": {
+                "platform": "didnow",
+                "threat": false,
+                "normal_operation": true,
+                "user_agent": "didnow_client_v1.0",
+                "ip_address": "192.168.1.139"
+              }
+            }
+          }
+        }
+      },
+      {
+        "event_id": "normal_veramo_revocation_1759153983_2",
+        "timestamp": "2025-09-29T22:11:03.882951",
+        "event_type": "REVOCATION",
+        "threat_detected": false,
+        "threat_type": "none",
+        "confidence": 0.0,
+        "rule_detection": false,
+        "model_detection": false,
+        "details": {
+          "rule_confidence": 0.0,
+          "model_score": 0.0,
+          "rule_explanation": "",
+          "raw_data": {
+            "event_id": "normal_veramo_revocation_1759153983_2",
+            "timestamp": "2025-09-29T22:11:03.882951",
+            "event_type": "REVOCATION",
+            "holder_did": "did:example:veramo_holder_2",
+            "verifier_id": "",
+            "vc_hash": "vc_veramo_2",
+            "label": "benign",
+            "optional": {
+              "issuer_did": "did:example:veramo_issuer_2",
+              "platform": "veramo",
+              "metadata": {
+                "platform": "veramo",
+                "threat": false,
+                "normal_operation": true,
+                "user_agent": "veramo_client_v1.0",
+                "ip_address": "192.168.1.122"
+              }
+            }
+          }
+        }
+      },
+      {
+        "event_id": "normal_didnow_did_creation_1759153983_3",
+        "timestamp": "2025-09-29T22:04:03.882960",
+        "event_type": "DID_CREATION",
+        "threat_detected": false,
+        "threat_type": "none",
+        "confidence": 0.0,
+        "rule_detection": false,
+        "model_detection": false,
+        "details": {
+          "rule_confidence": 0.0,
+          "model_score": 0.0,
+          "rule_explanation": "",
+          "raw_data": {
+            "event_id": "normal_didnow_did_creation_1759153983_3",
+            "timestamp": "2025-09-29T22:04:03.882960",
+            "event_type": "DID_CREATION",
+            "holder_did": "did:example:didnow_holder_3",
+            "verifier_id": "",
+            "vc_hash": "vc_didnow_3",
+            "label": "benign",
+            "optional": {
+              "issuer_did": "did:example:didnow_issuer_3",
+              "platform": "didnow",
+              "metadata": {
+                "platform": "didnow",
+                "threat": false,
+                "normal_operation": true,
+                "user_agent": "didnow_client_v1.0",
+                "ip_address": "192.168.1.181"
+              }
+            }
+          }
+        }
+      },
+      {
+        "event_id": "normal_sovrin_verification_1759153983_4",
+        "timestamp": "2025-09-29T22:28:03.882968",
+        "event_type": "VERIFICATION",
+        "threat_detected": false,
+        "threat_type": "none",
+        "confidence": 0.0,
+        "rule_detection": false,
+        "model_detection": false,
+        "details": {
+          "rule_confidence": 0.0,
+          "model_score": 0.0,
+          "rule_explanation": "",
+          "raw_data": {
+            "event_id": "normal_sovrin_verification_1759153983_4",
+            "timestamp": "2025-09-29T22:28:03.882968",
+            "event_type": "VERIFICATION",
+            "holder_did": "did:example:sovrin_holder_4",
+            "verifier_id": "did:example:sovrin_verifier_4",
+            "vc_hash": "vc_sovrin_4",
+            "label": "benign",
+            "optional": {
+              "issuer_did": "did:example:sovrin_issuer_4",
+              "platform": "sovrin",
+              "metadata": {
+                "platform": "sovrin",
+                "threat": false,
+                "normal_operation": true,
+                "user_agent": "sovrin_client_v1.0",
+                "ip_address": "192.168.1.143"
+              }
+            }
+          }
+        }
+      },
+      {
+        "event_id": "normal_sovrin_did_creation_1759153983_5",
+        "timestamp": "2025-09-29T22:49:03.882982",
+        "event_type": "DID_CREATION",
+        "threat_detected": false,
+        "threat_type": "none",
+        "confidence": 0.0,
+        "rule_detection": false,
+        "model_detection": false,
+        "details": {
+          "rule_confidence": 0.0,
+          "model_score": 0.0,
+          "rule_explanation": "",
+          "raw_data": {
+            "event_id": "normal_sovrin_did_creation_1759153983_5",
+            "timestamp": "2025-09-29T22:49:03.882982",
+            "event_type": "DID_CREATION",
+            "holder_did": "did:example:sovrin_holder_5",
+            "verifier_id": "",
+            "vc_hash": "vc_sovrin_5",
+            "label": "benign",
+            "optional": {
+              "issuer_did": "did:example:sovrin_issuer_5",
+              "platform": "sovrin",
+              "metadata": {
+                "platform": "sovrin",
+                "threat": false,
+                "normal_operation": true,
+                "user_agent": "sovrin_client_v1.0",
+                "ip_address": "192.168.1.77"
+              }
+            }
+          }
+        }
+      },
+      {
+        "event_id": "normal_sovrin_revocation_1759153983_6",
+        "timestamp": "2025-09-29T22:05:03.882989",
+        "event_type": "REVOCATION",
+        "threat_detected": false,
+        "threat_type": "none",
+        "confidence": 0.0,
+        "rule_detection": false,
+        "model_detection": false,
+        "details": {
+          "rule_confidence": 0.0,
+          "model_score": 0.0,
+          "rule_explanation": "",
+          "raw_data": {
+            "event_id": "normal_sovrin_revocation_1759153983_6",
+            "timestamp": "2025-09-29T22:05:03.882989",
+            "event_type": "REVOCATION",
+            "holder_did": "did:example:sovrin_holder_6",
+            "verifier_id": "",
+            "vc_hash": "vc_sovrin_6",
+            "label": "benign",
+            "optional": {
+              "issuer_did": "did:example:sovrin_issuer_6",
+              "platform": "sovrin",
+              "metadata": {
+                "platform": "sovrin",
+                "threat": false,
+                "normal_operation": true,
+                "user_agent": "sovrin_client_v1.0",
+                "ip_address": "192.168.1.110"
+              }
+            }
+          }
+        }
+      },
+      {
+        "event_id": "normal_sovrin_presentation_1759153983_7",
+        "timestamp": "2025-09-29T22:21:03.882996",
+        "event_type": "PRESENTATION",
+        "threat_detected": false,
+        "threat_type": "none",
+        "confidence": 0.0,
+        "rule_detection": false,
+        "model_detection": false,
+        "details": {
+          "rule_confidence": 0.0,
+          "model_score": 0.0,
+          "rule_explanation": "",
+          "raw_data": {
+            "event_id": "normal_sovrin_presentation_1759153983_7",
+            "timestamp": "2025-09-29T22:21:03.882996",
+            "event_type": "PRESENTATION",
+            "holder_did": "did:example:sovrin_holder_7",
+            "verifier_id": "did:example:sovrin_verifier_7",
+            "vc_hash": "vc_sovrin_7",
+            "label": "benign",
+            "optional": {
+              "issuer_did": "did:example:sovrin_issuer_7",
+              "platform": "sovrin",
+              "metadata": {
+                "platform": "sovrin",
+                "threat": false,
+                "normal_operation": true,
+                "user_agent": "sovrin_client_v1.0",
+                "ip_address": "192.168.1.169"
+              }
+            }
+          }
+        }
+      },
+      {
+        "event_id": "normal_didnow_did_creation_1759153983_8",
+        "timestamp": "2025-09-29T22:32:03.883003",
+        "event_type": "DID_CREATION",
+        "threat_detected": false,
+        "threat_type": "none",
+        "confidence": 0.0,
+        "rule_detection": false,
+        "model_detection": false,
+        "details": {
+          "rule_confidence": 0.0,
+          "model_score": 0.0,
+          "rule_explanation": "",
+          "raw_data": {
+            "event_id": "normal_didnow_did_creation_1759153983_8",
+            "timestamp": "2025-09-29T22:32:03.883003",
+            "event_type": "DID_CREATION",
+            "holder_did": "did:example:didnow_holder_8",
+            "verifier_id": "",
+            "vc_hash": "vc_didnow_8",
+            "label": "benign",
+            "optional": {
+              "issuer_did": "did:example:didnow_issuer_8",
+              "platform": "didnow",
+              "metadata": {
+                "platform": "didnow",
+                "threat": false,
+                "normal_operation": true,
+                "user_agent": "didnow_client_v1.0",
+                "ip_address": "192.168.1.151"
+              }
+            }
+          }
+        }
+      },
+      {
+        "event_id": "normal_sovrin_verification_1759153983_9",
+        "timestamp": "2025-09-29T21:53:03.883009",
+        "event_type": "VERIFICATION",
+        "threat_detected": false,
+        "threat_type": "none",
+        "confidence": 0.0,
+        "rule_detection": false,
+        "model_detection": false,
+        "details": {
+          "rule_confidence": 0.0,
+          "model_score": 0.0,
+          "rule_explanation": "",
+          "raw_data": {
+            "event_id": "normal_sovrin_verification_1759153983_9",
+            "timestamp": "2025-09-29T21:53:03.883009",
+            "event_type": "VERIFICATION",
+            "holder_did": "did:example:sovrin_holder_9",
+            "verifier_id": "did:example:sovrin_verifier_9",
+            "vc_hash": "vc_sovrin_9",
+            "label": "benign",
+            "optional": {
+              "issuer_did": "did:example:sovrin_issuer_9",
+              "platform": "sovrin",
+              "metadata": {
+                "platform": "sovrin",
+                "threat": false,
+                "normal_operation": true,
+                "user_agent": "sovrin_client_v1.0",
+                "ip_address": "192.168.1.111"
+              }
+            }
+          }
+        }
+      },
+      {
+        "event_id": "normal_didnow_verification_1759153983_10",
+        "timestamp": "2025-09-29T22:44:03.883016",
+        "event_type": "VERIFICATION",
+        "threat_detected": false,
+        "threat_type": "none",
+        "confidence": 0.0,
+        "rule_detection": false,
+        "model_detection": false,
+        "details": {
+          "rule_confidence": 0.0,
+          "model_score": 0.0,
+          "rule_explanation": "",
+          "raw_data": {
+            "event_id": "normal_didnow_verification_1759153983_10",
+            "timestamp": "2025-09-29T22:44:03.883016",
+            "event_type": "VERIFICATION",
+            "holder_did": "did:example:didnow_holder_10",
+            "verifier_id": "did:example:didnow_verifier_10",
+            "vc_hash": "vc_didnow_10",
+            "label": "benign",
+            "optional": {
+              "issuer_did": "did:example:didnow_issuer_10",
+              "platform": "didnow",
+              "metadata": {
+                "platform": "didnow",
+                "threat": false,
+                "normal_operation": true,
+                "user_agent": "didnow_client_v1.0",
+                "ip_address": "192.168.1.133"
+              }
+            }
+          }
+        }
+      },
+      {
+        "event_id": "normal_sovrin_did_creation_1759153983_11",
+        "timestamp": "2025-09-29T22:23:03.883023",
+        "event_type": "DID_CREATION",
+        "threat_detected": false,
+        "threat_type": "none",
+        "confidence": 0.0,
+        "rule_detection": false,
+        "model_detection": false,
+        "details": {
+          "rule_confidence": 0.0,
+          "model_score": 0.0,
+          "rule_explanation": "",
+          "raw_data": {
+            "event_id": "normal_sovrin_did_creation_1759153983_11",
+            "timestamp": "2025-09-29T22:23:03.883023",
+            "event_type": "DID_CREATION",
+            "holder_did": "did:example:sovrin_holder_11",
+            "verifier_id": "",
+            "vc_hash": "vc_sovrin_11",
+            "label": "benign",
+            "optional": {
+              "issuer_did": "did:example:sovrin_issuer_11",
+              "platform": "sovrin",
+              "metadata": {
+                "platform": "sovrin",
+                "threat": false,
+                "normal_operation": true,
+                "user_agent": "sovrin_client_v1.0",
+                "ip_address": "192.168.1.44"
+              }
+            }
+          }
+        }
+      },
+      {
+        "event_id": "normal_didnow_issuance_1759153983_12",
+        "timestamp": "2025-09-29T22:26:03.883030",
+        "event_type": "ISSUANCE",
+        "threat_detected": false,
+        "threat_type": "none",
+        "confidence": 0.0,
+        "rule_detection": false,
+        "model_detection": false,
+        "details": {
+          "rule_confidence": 0.0,
+          "model_score": 0.0,
+          "rule_explanation": "",
+          "raw_data": {
+            "event_id": "normal_didnow_issuance_1759153983_12",
+            "timestamp": "2025-09-29T22:26:03.883030",
+            "event_type": "ISSUANCE",
+            "holder_did": "did:example:didnow_holder_12",
+            "verifier_id": "",
+            "vc_hash": "vc_didnow_12",
+            "label": "benign",
+            "optional": {
+              "issuer_did": "did:example:didnow_issuer_12",
+              "platform": "didnow",
+              "metadata": {
+                "platform": "didnow",
+                "threat": false,
+                "normal_operation": true,
+                "user_agent": "didnow_client_v1.0",
+                "ip_address": "192.168.1.75"
+              }
+            }
+          }
+        }
+      },
+      {
+        "event_id": "normal_veramo_verification_1759153983_13",
+        "timestamp": "2025-09-29T22:20:03.883037",
+        "event_type": "VERIFICATION",
+        "threat_detected": false,
+        "threat_type": "none",
+        "confidence": 0.0,
+        "rule_detection": false,
+        "model_detection": false,
+        "details": {
+          "rule_confidence": 0.0,
+          "model_score": 0.0,
+          "rule_explanation": "",
+          "raw_data": {
+            "event_id": "normal_veramo_verification_1759153983_13",
+            "timestamp": "2025-09-29T22:20:03.883037",
+            "event_type": "VERIFICATION",
+            "holder_did": "did:example:veramo_holder_13",
+            "verifier_id": "did:example:veramo_verifier_13",
+            "vc_hash": "vc_veramo_13",
+            "label": "benign",
+            "optional": {
+              "issuer_did": "did:example:veramo_issuer_13",
+              "platform": "veramo",
+              "metadata": {
+                "platform": "veramo",
+                "threat": false,
+                "normal_operation": true,
+                "user_agent": "veramo_client_v1.0",
+                "ip_address": "192.168.1.149"
+              }
+            }
+          }
+        }
+      },
+      {
+        "event_id": "normal_veramo_verification_1759153983_14",
+        "timestamp": "2025-09-29T21:53:03.883044",
+        "event_type": "VERIFICATION",
+        "threat_detected": false,
+        "threat_type": "none",
+        "confidence": 0.0,
+        "rule_detection": false,
+        "model_detection": false,
+        "details": {
+          "rule_confidence": 0.0,
+          "model_score": 0.0,
+          "rule_explanation": "",
+          "raw_data": {
+            "event_id": "normal_veramo_verification_1759153983_14",
+            "timestamp": "2025-09-29T21:53:03.883044",
+            "event_type": "VERIFICATION",
+            "holder_did": "did:example:veramo_holder_14",
+            "verifier_id": "did:example:veramo_verifier_14",
+            "vc_hash": "vc_veramo_14",
+            "label": "benign",
+            "optional": {
+              "issuer_did": "did:example:veramo_issuer_14",
+              "platform": "veramo",
+              "metadata": {
+                "platform": "veramo",
+                "threat": false,
+                "normal_operation": true,
+                "user_agent": "veramo_client_v1.0",
+                "ip_address": "192.168.1.187"
+              }
+            }
+          }
+        }
+      },
+      {
+        "event_id": "normal_sovrin_issuance_1759153983_15",
+        "timestamp": "2025-09-29T22:25:03.883051",
+        "event_type": "ISSUANCE",
+        "threat_detected": false,
+        "threat_type": "none",
+        "confidence": 0.0,
+        "rule_detection": false,
+        "model_detection": false,
+        "details": {
+          "rule_confidence": 0.0,
+          "model_score": 0.0,
+          "rule_explanation": "",
+          "raw_data": {
+            "event_id": "normal_sovrin_issuance_1759153983_15",
+            "timestamp": "2025-09-29T22:25:03.883051",
+            "event_type": "ISSUANCE",
+            "holder_did": "did:example:sovrin_holder_15",
+            "verifier_id": "",
+            "vc_hash": "vc_sovrin_15",
+            "label": "benign",
+            "optional": {
+              "issuer_did": "did:example:sovrin_issuer_15",
+              "platform": "sovrin",
+              "metadata": {
+                "platform": "sovrin",
+                "threat": false,
+                "normal_operation": true,
+                "user_agent": "sovrin_client_v1.0",
+                "ip_address": "192.168.1.235"
+              }
+            }
+          }
+        }
+      },
+      {
+        "event_id": "normal_veramo_presentation_1759153983_16",
+        "timestamp": "2025-09-29T22:19:03.883057",
+        "event_type": "PRESENTATION",
+        "threat_detected": false,
+        "threat_type": "none",
+        "confidence": 0.0,
+        "rule_detection": false,
+        "model_detection": false,
+        "details": {
+          "rule_confidence": 0.0,
+          "model_score": 0.0,
+          "rule_explanation": "",
+          "raw_data": {
+            "event_id": "normal_veramo_presentation_1759153983_16",
+            "timestamp": "2025-09-29T22:19:03.883057",
+            "event_type": "PRESENTATION",
+            "holder_did": "did:example:veramo_holder_16",
+            "verifier_id": "did:example:veramo_verifier_16",
+            "vc_hash": "vc_veramo_16",
+            "label": "benign",
+            "optional": {
+              "issuer_did": "did:example:veramo_issuer_16",
+              "platform": "veramo",
+              "metadata": {
+                "platform": "veramo",
+                "threat": false,
+                "normal_operation": true,
+                "user_agent": "veramo_client_v1.0",
+                "ip_address": "192.168.1.99"
+              }
+            }
+          }
+        }
+      },
+      {
+        "event_id": "normal_sovrin_did_creation_1759153983_17",
+        "timestamp": "2025-09-29T21:57:03.883067",
+        "event_type": "DID_CREATION",
+        "threat_detected": false,
+        "threat_type": "none",
+        "confidence": 0.0,
+        "rule_detection": false,
+        "model_detection": false,
+        "details": {
+          "rule_confidence": 0.0,
+          "model_score": 0.0,
+          "rule_explanation": "",
+          "raw_data": {
+            "event_id": "normal_sovrin_did_creation_1759153983_17",
+            "timestamp": "2025-09-29T21:57:03.883067",
+            "event_type": "DID_CREATION",
+            "holder_did": "did:example:sovrin_holder_17",
+            "verifier_id": "",
+            "vc_hash": "vc_sovrin_17",
+            "label": "benign",
+            "optional": {
+              "issuer_did": "did:example:sovrin_issuer_17",
+              "platform": "sovrin",
+              "metadata": {
+                "platform": "sovrin",
+                "threat": false,
+                "normal_operation": true,
+                "user_agent": "sovrin_client_v1.0",
+                "ip_address": "192.168.1.3"
+              }
+            }
+          }
+        }
+      },
+      {
+        "event_id": "normal_didnow_revocation_1759153983_18",
+        "timestamp": "2025-09-29T22:35:03.883074",
+        "event_type": "REVOCATION",
+        "threat_detected": false,
+        "threat_type": "none",
+        "confidence": 0.0,
+        "rule_detection": false,
+        "model_detection": false,
+        "details": {
+          "rule_confidence": 0.0,
+          "model_score": 0.0,
+          "rule_explanation": "",
+          "raw_data": {
+            "event_id": "normal_didnow_revocation_1759153983_18",
+            "timestamp": "2025-09-29T22:35:03.883074",
+            "event_type": "REVOCATION",
+            "holder_did": "did:example:didnow_holder_18",
+            "verifier_id": "",
+            "vc_hash": "vc_didnow_18",
+            "label": "benign",
+            "optional": {
+              "issuer_did": "did:example:didnow_issuer_18",
+              "platform": "didnow",
+              "metadata": {
+                "platform": "didnow",
+                "threat": false,
+                "normal_operation": true,
+                "user_agent": "didnow_client_v1.0",
+                "ip_address": "192.168.1.87"
+              }
+            }
+          }
+        }
+      },
+      {
+        "event_id": "normal_veramo_verification_1759153983_19",
+        "timestamp": "2025-09-29T22:14:03.883080",
+        "event_type": "VERIFICATION",
+        "threat_detected": false,
+        "threat_type": "none",
+        "confidence": 0.0,
+        "rule_detection": false,
+        "model_detection": false,
+        "details": {
+          "rule_confidence": 0.0,
+          "model_score": 0.0,
+          "rule_explanation": "",
+          "raw_data": {
+            "event_id": "normal_veramo_verification_1759153983_19",
+            "timestamp": "2025-09-29T22:14:03.883080",
+            "event_type": "VERIFICATION",
+            "holder_did": "did:example:veramo_holder_19",
+            "verifier_id": "did:example:veramo_verifier_19",
+            "vc_hash": "vc_veramo_19",
+            "label": "benign",
+            "optional": {
+              "issuer_did": "did:example:veramo_issuer_19",
+              "platform": "veramo",
+              "metadata": {
+                "platform": "veramo",
+                "threat": false,
+                "normal_operation": true,
+                "user_agent": "veramo_client_v1.0",
+                "ip_address": "192.168.1.165"
+              }
+            }
+          }
+        }
+      },
+      {
+        "event_id": "credential_reuse_1759153983_0",
+        "timestamp": "2025-09-29T22:53:03.883227",
+        "event_type": "VERIFICATION",
+        "threat_detected": false,
+        "threat_type": "none",
+        "confidence": 0.0,
+        "rule_detection": false,
+        "model_detection": false,
+        "details": {
+          "rule_confidence": 0.0,
+          "model_score": 0.0,
+          "rule_explanation": "",
+          "raw_data": {
+            "event_id": "credential_reuse_1759153983_0",
+            "timestamp": "2025-09-29T22:53:03.883227",
+            "event_type": "VERIFICATION",
+            "holder_did": "did:example:attacker",
+            "verifier_id": "did:example:verifier_0",
+            "vc_hash": "stolen_vc_12345",
+            "label": "malicious",
+            "optional": {
+              "issuer_did": "did:example:legitimate_issuer",
+              "platform": "didnow",
+              "metadata": {
+                "platform": "didnow",
+                "threat": true,
+                "attack_type": "credential_reuse",
+                "reuse_count": 1,
+                "suspicious_pattern": true
+              }
+            }
+          }
+        }
+      },
+      {
+        "event_id": "credential_reuse_1759153983_1",
+        "timestamp": "2025-09-29T22:55:03.883227",
+        "event_type": "VERIFICATION",
+        "threat_detected": false,
+        "threat_type": "none",
+        "confidence": 0.0,
+        "rule_detection": false,
+        "model_detection": false,
+        "details": {
+          "rule_confidence": 0.0,
+          "model_score": 0.0,
+          "rule_explanation": "",
+          "raw_data": {
+            "event_id": "credential_reuse_1759153983_1",
+            "timestamp": "2025-09-29T22:55:03.883227",
+            "event_type": "VERIFICATION",
+            "holder_did": "did:example:attacker",
+            "verifier_id": "did:example:verifier_1",
+            "vc_hash": "stolen_vc_12345",
+            "label": "malicious",
+            "optional": {
+              "issuer_did": "did:example:legitimate_issuer",
+              "platform": "didnow",
+              "metadata": {
+                "platform": "didnow",
+                "threat": true,
+                "attack_type": "credential_reuse",
+                "reuse_count": 2,
+                "suspicious_pattern": true
+              }
+            }
+          }
+        }
+      },
+      {
+        "event_id": "credential_reuse_1759153983_2",
+        "timestamp": "2025-09-29T22:57:03.883227",
+        "event_type": "VERIFICATION",
+        "threat_detected": false,
+        "threat_type": "none",
+        "confidence": 0.0,
+        "rule_detection": false,
+        "model_detection": false,
+        "details": {
+          "rule_confidence": 0.0,
+          "model_score": 0.0,
+          "rule_explanation": "",
+          "raw_data": {
+            "event_id": "credential_reuse_1759153983_2",
+            "timestamp": "2025-09-29T22:57:03.883227",
+            "event_type": "VERIFICATION",
+            "holder_did": "did:example:attacker",
+            "verifier_id": "did:example:verifier_2",
+            "vc_hash": "stolen_vc_12345",
+            "label": "malicious",
+            "optional": {
+              "issuer_did": "did:example:legitimate_issuer",
+              "platform": "didnow",
+              "metadata": {
+                "platform": "didnow",
+                "threat": true,
+                "attack_type": "credential_reuse",
+                "reuse_count": 3,
+                "suspicious_pattern": true
+              }
+            }
+          }
+        }
+      },
+      {
+        "event_id": "credential_reuse_1759153983_3",
+        "timestamp": "2025-09-29T22:59:03.883227",
+        "event_type": "VERIFICATION",
+        "threat_detected": false,
+        "threat_type": "none",
+        "confidence": 0.0,
+        "rule_detection": false,
+        "model_detection": false,
+        "details": {
+          "rule_confidence": 0.0,
+          "model_score": 0.0,
+          "rule_explanation": "",
+          "raw_data": {
+            "event_id": "credential_reuse_1759153983_3",
+            "timestamp": "2025-09-29T22:59:03.883227",
+            "event_type": "VERIFICATION",
+            "holder_did": "did:example:attacker",
+            "verifier_id": "did:example:verifier_3",
+            "vc_hash": "stolen_vc_12345",
+            "label": "malicious",
+            "optional": {
+              "issuer_did": "did:example:legitimate_issuer",
+              "platform": "didnow",
+              "metadata": {
+                "platform": "didnow",
+                "threat": true,
+                "attack_type": "credential_reuse",
+                "reuse_count": 4,
+                "suspicious_pattern": true
+              }
+            }
+          }
+        }
+      },
+      {
+        "event_id": "credential_reuse_1759153983_4",
+        "timestamp": "2025-09-29T23:01:03.883227",
+        "event_type": "VERIFICATION",
+        "threat_detected": false,
+        "threat_type": "none",
+        "confidence": 0.0,
+        "rule_detection": false,
+        "model_detection": false,
+        "details": {
+          "rule_confidence": 0.0,
+          "model_score": 0.0,
+          "rule_explanation": "",
+          "raw_data": {
+            "event_id": "credential_reuse_1759153983_4",
+            "timestamp": "2025-09-29T23:01:03.883227",
+            "event_type": "VERIFICATION",
+            "holder_did": "did:example:attacker",
+            "verifier_id": "did:example:verifier_4",
+            "vc_hash": "stolen_vc_12345",
+            "label": "malicious",
+            "optional": {
+              "issuer_did": "did:example:legitimate_issuer",
+              "platform": "didnow",
+              "metadata": {
+                "platform": "didnow",
+                "threat": true,
+                "attack_type": "credential_reuse",
+                "reuse_count": 5,
+                "suspicious_pattern": true
+              }
+            }
+          }
+        }
+      },
+      {
+        "event_id": "issuer_impersonation_1759153983_0",
+        "timestamp": "2025-09-29T22:53:03.883339",
+        "event_type": "ISSUANCE",
+        "threat_detected": false,
+        "threat_type": "none",
+        "confidence": 0.0,
+        "rule_detection": false,
+        "model_detection": false,
+        "details": {
+          "rule_confidence": 0.0,
+          "model_score": 0.0,
+          "rule_explanation": "",
+          "raw_data": {
+            "event_id": "issuer_impersonation_1759153983_0",
+            "timestamp": "2025-09-29T22:53:03.883339",
+            "event_type": "ISSUANCE",
+            "holder_did": "did:example:holder_victim",
+            "verifier_id": "",
+            "vc_hash": "fake_vc_0",
+            "label": "malicious",
+            "optional": {
+              "issuer_did": "did:example:fake_issuer",
+              "platform": "veramo",
+              "metadata": {
+                "platform": "veramo",
+                "threat": true,
+                "attack_type": "issuer_impersonation",
+                "fake_issuer": true,
+                "legitimate_issuer": "did:example:real_issuer",
+                "credential_type": "fake_identity"
+              }
+            }
+          }
+        }
+      },
+      {
+        "event_id": "issuer_impersonation_1759153983_1",
+        "timestamp": "2025-09-29T22:43:03.883346",
+        "event_type": "ISSUANCE",
+        "threat_detected": false,
+        "threat_type": "none",
+        "confidence": 0.0,
+        "rule_detection": false,
+        "model_detection": false,
+        "details": {
+          "rule_confidence": 0.0,
+          "model_score": 0.0,
+          "rule_explanation": "",
+          "raw_data": {
+            "event_id": "issuer_impersonation_1759153983_1",
+            "timestamp": "2025-09-29T22:43:03.883346",
+            "event_type": "ISSUANCE",
+            "holder_did": "did:example:holder_victim",
+            "verifier_id": "",
+            "vc_hash": "fake_vc_1",
+            "label": "malicious",
+            "optional": {
+              "issuer_did": "did:example:fake_issuer",
+              "platform": "veramo",
+              "metadata": {
+                "platform": "veramo",
+                "threat": true,
+                "attack_type": "issuer_impersonation",
+                "fake_issuer": true,
+                "legitimate_issuer": "did:example:real_issuer",
+                "credential_type": "fake_identity"
+              }
+            }
+          }
+        }
+      },
+      {
+        "event_id": "issuer_impersonation_1759153983_2",
+        "timestamp": "2025-09-29T22:33:03.883351",
+        "event_type": "ISSUANCE",
+        "threat_detected": false,
+        "threat_type": "none",
+        "confidence": 0.0,
+        "rule_detection": false,
+        "model_detection": false,
+        "details": {
+          "rule_confidence": 0.0,
+          "model_score": 0.0,
+          "rule_explanation": "",
+          "raw_data": {
+            "event_id": "issuer_impersonation_1759153983_2",
+            "timestamp": "2025-09-29T22:33:03.883351",
+            "event_type": "ISSUANCE",
+            "holder_did": "did:example:holder_victim",
+            "verifier_id": "",
+            "vc_hash": "fake_vc_2",
+            "label": "malicious",
+            "optional": {
+              "issuer_did": "did:example:fake_issuer",
+              "platform": "veramo",
+              "metadata": {
+                "platform": "veramo",
+                "threat": true,
+                "attack_type": "issuer_impersonation",
+                "fake_issuer": true,
+                "legitimate_issuer": "did:example:real_issuer",
+                "credential_type": "fake_identity"
+              }
+            }
+          }
+        }
+      },
+      {
+        "event_id": "rapid_event_1759153983_0",
+        "timestamp": "2025-09-29T22:53:03.883430",
+        "event_type": "ISSUANCE",
+        "threat_detected": true,
+        "threat_type": "rapid_events",
+        "confidence": 0.7,
+        "rule_detection": true,
+        "model_detection": false,
+        "details": {
+          "rule_confidence": 0.7,
+          "model_score": 0.0,
+          "rule_explanation": "Holder가 1분 내 10개 이벤트 발생",
+          "raw_data": {
+            "event_id": "rapid_event_1759153983_0",
+            "timestamp": "2025-09-29T22:53:03.883430",
+            "event_type": "ISSUANCE",
+            "holder_did": "did:example:rapid_attacker",
+            "verifier_id": "did:example:verifier",
+            "vc_hash": "rapid_vc_0",
+            "label": "malicious",
+            "optional": {
+              "issuer_did": "did:example:issuer",
+              "platform": "sovrin",
+              "metadata": {
+                "platform": "sovrin",
+                "threat": true,
+                "attack_type": "rapid_events",
+                "event_interval": 6,
+                "total_events": 10,
+                "time_window": 60
+              }
+            }
+          }
+        }
+      },
+      {
+        "event_id": "rapid_event_1759153983_1",
+        "timestamp": "2025-09-29T22:53:09.883430",
+        "event_type": "PRESENTATION",
+        "threat_detected": true,
+        "threat_type": "rapid_events",
+        "confidence": 0.7,
+        "rule_detection": true,
+        "model_detection": false,
+        "details": {
+          "rule_confidence": 0.7,
+          "model_score": 0.0,
+          "rule_explanation": "Holder가 1분 내 9개 이벤트 발생",
+          "raw_data": {
+            "event_id": "rapid_event_1759153983_1",
+            "timestamp": "2025-09-29T22:53:09.883430",
+            "event_type": "PRESENTATION",
+            "holder_did": "did:example:rapid_attacker",
+            "verifier_id": "",
+            "vc_hash": "rapid_vc_1",
+            "label": "malicious",
+            "optional": {
+              "issuer_did": "did:example:issuer",
+              "platform": "sovrin",
+              "metadata": {
+                "platform": "sovrin",
+                "threat": true,
+                "attack_type": "rapid_events",
+                "event_interval": 6,
+                "total_events": 10,
+                "time_window": 60
+              }
+            }
+          }
+        }
+      },
+      {
+        "event_id": "rapid_event_1759153983_2",
+        "timestamp": "2025-09-29T22:53:15.883430",
+        "event_type": "VERIFICATION",
+        "threat_detected": true,
+        "threat_type": "rapid_events",
+        "confidence": 0.7,
+        "rule_detection": true,
+        "model_detection": false,
+        "details": {
+          "rule_confidence": 0.7,
+          "model_score": 0.0,
+          "rule_explanation": "Holder가 1분 내 8개 이벤트 발생",
+          "raw_data": {
+            "event_id": "rapid_event_1759153983_2",
+            "timestamp": "2025-09-29T22:53:15.883430",
+            "event_type": "VERIFICATION",
+            "holder_did": "did:example:rapid_attacker",
+            "verifier_id": "did:example:verifier",
+            "vc_hash": "rapid_vc_2",
+            "label": "malicious",
+            "optional": {
+              "issuer_did": "did:example:issuer",
+              "platform": "sovrin",
+              "metadata": {
+                "platform": "sovrin",
+                "threat": true,
+                "attack_type": "rapid_events",
+                "event_interval": 6,
+                "total_events": 10,
+                "time_window": 60
+              }
+            }
+          }
+        }
+      },
+      {
+        "event_id": "rapid_event_1759153983_3",
+        "timestamp": "2025-09-29T22:53:21.883430",
+        "event_type": "VERIFICATION",
+        "threat_detected": true,
+        "threat_type": "rapid_events",
+        "confidence": 0.7,
+        "rule_detection": true,
+        "model_detection": false,
+        "details": {
+          "rule_confidence": 0.7,
+          "model_score": 0.0,
+          "rule_explanation": "Holder가 1분 내 7개 이벤트 발생",
+          "raw_data": {
+            "event_id": "rapid_event_1759153983_3",
+            "timestamp": "2025-09-29T22:53:21.883430",
+            "event_type": "VERIFICATION",
+            "holder_did": "did:example:rapid_attacker",
+            "verifier_id": "",
+            "vc_hash": "rapid_vc_3",
+            "label": "malicious",
+            "optional": {
+              "issuer_did": "did:example:issuer",
+              "platform": "sovrin",
+              "metadata": {
+                "platform": "sovrin",
+                "threat": true,
+                "attack_type": "rapid_events",
+                "event_interval": 6,
+                "total_events": 10,
+                "time_window": 60
+              }
+            }
+          }
+        }
+      },
+      {
+        "event_id": "rapid_event_1759153983_4",
+        "timestamp": "2025-09-29T22:53:27.883430",
+        "event_type": "PRESENTATION",
+        "threat_detected": true,
+        "threat_type": "rapid_events",
+        "confidence": 0.7,
+        "rule_detection": true,
+        "model_detection": false,
+        "details": {
+          "rule_confidence": 0.7,
+          "model_score": 0.0,
+          "rule_explanation": "Holder가 1분 내 6개 이벤트 발생",
+          "raw_data": {
+            "event_id": "rapid_event_1759153983_4",
+            "timestamp": "2025-09-29T22:53:27.883430",
+            "event_type": "PRESENTATION",
+            "holder_did": "did:example:rapid_attacker",
+            "verifier_id": "did:example:verifier",
+            "vc_hash": "rapid_vc_4",
+            "label": "malicious",
+            "optional": {
+              "issuer_did": "did:example:issuer",
+              "platform": "sovrin",
+              "metadata": {
+                "platform": "sovrin",
+                "threat": true,
+                "attack_type": "rapid_events",
+                "event_interval": 6,
+                "total_events": 10,
+                "time_window": 60
+              }
+            }
+          }
+        }
+      },
+      {
+        "event_id": "rapid_event_1759153983_5",
+        "timestamp": "2025-09-29T22:53:33.883430",
+        "event_type": "PRESENTATION",
+        "threat_detected": true,
+        "threat_type": "time_anomaly",
+        "confidence": 0.8,
+        "rule_detection": true,
+        "model_detection": false,
+        "details": {
+          "rule_confidence": 0.8,
+          "model_score": 0.0,
+          "rule_explanation": "동일 사용자가 5분 내 3개 VC 제시",
+          "raw_data": {
+            "event_id": "rapid_event_1759153983_5",
+            "timestamp": "2025-09-29T22:53:33.883430",
+            "event_type": "PRESENTATION",
+            "holder_did": "did:example:rapid_attacker",
+            "verifier_id": "",
+            "vc_hash": "rapid_vc_5",
+            "label": "malicious",
+            "optional": {
+              "issuer_did": "did:example:issuer",
+              "platform": "sovrin",
+              "metadata": {
+                "platform": "sovrin",
+                "threat": true,
+                "attack_type": "rapid_events",
+                "event_interval": 6,
+                "total_events": 10,
+                "time_window": 60
+              }
+            }
+          }
+        }
+      },
+      {
+        "event_id": "rapid_event_1759153983_6",
+        "timestamp": "2025-09-29T22:53:39.883430",
+        "event_type": "ISSUANCE",
+        "threat_detected": false,
+        "threat_type": "none",
+        "confidence": 0.0,
+        "rule_detection": false,
+        "model_detection": false,
+        "details": {
+          "rule_confidence": 0.0,
+          "model_score": 0.0,
+          "rule_explanation": "",
+          "raw_data": {
+            "event_id": "rapid_event_1759153983_6",
+            "timestamp": "2025-09-29T22:53:39.883430",
+            "event_type": "ISSUANCE",
+            "holder_did": "did:example:rapid_attacker",
+            "verifier_id": "did:example:verifier",
+            "vc_hash": "rapid_vc_6",
+            "label": "malicious",
+            "optional": {
+              "issuer_did": "did:example:issuer",
+              "platform": "sovrin",
+              "metadata": {
+                "platform": "sovrin",
+                "threat": true,
+                "attack_type": "rapid_events",
+                "event_interval": 6,
+                "total_events": 10,
+                "time_window": 60
+              }
+            }
+          }
+        }
+      },
+      {
+        "event_id": "rapid_event_1759153983_7",
+        "timestamp": "2025-09-29T22:53:45.883430",
+        "event_type": "VERIFICATION",
+        "threat_detected": false,
+        "threat_type": "none",
+        "confidence": 0.0,
+        "rule_detection": false,
+        "model_detection": false,
+        "details": {
+          "rule_confidence": 0.0,
+          "model_score": 0.0,
+          "rule_explanation": "",
+          "raw_data": {
+            "event_id": "rapid_event_1759153983_7",
+            "timestamp": "2025-09-29T22:53:45.883430",
+            "event_type": "VERIFICATION",
+            "holder_did": "did:example:rapid_attacker",
+            "verifier_id": "",
+            "vc_hash": "rapid_vc_7",
+            "label": "malicious",
+            "optional": {
+              "issuer_did": "did:example:issuer",
+              "platform": "sovrin",
+              "metadata": {
+                "platform": "sovrin",
+                "threat": true,
+                "attack_type": "rapid_events",
+                "event_interval": 6,
+                "total_events": 10,
+                "time_window": 60
+              }
+            }
+          }
+        }
+      },
+      {
+        "event_id": "rapid_event_1759153983_8",
+        "timestamp": "2025-09-29T22:53:51.883430",
+        "event_type": "ISSUANCE",
+        "threat_detected": false,
+        "threat_type": "none",
+        "confidence": 0.0,
+        "rule_detection": false,
+        "model_detection": false,
+        "details": {
+          "rule_confidence": 0.0,
+          "model_score": 0.0,
+          "rule_explanation": "",
+          "raw_data": {
+            "event_id": "rapid_event_1759153983_8",
+            "timestamp": "2025-09-29T22:53:51.883430",
+            "event_type": "ISSUANCE",
+            "holder_did": "did:example:rapid_attacker",
+            "verifier_id": "did:example:verifier",
+            "vc_hash": "rapid_vc_8",
+            "label": "malicious",
+            "optional": {
+              "issuer_did": "did:example:issuer",
+              "platform": "sovrin",
+              "metadata": {
+                "platform": "sovrin",
+                "threat": true,
+                "attack_type": "rapid_events",
+                "event_interval": 6,
+                "total_events": 10,
+                "time_window": 60
+              }
+            }
+          }
+        }
+      },
+      {
+        "event_id": "rapid_event_1759153983_9",
+        "timestamp": "2025-09-29T22:53:57.883430",
+        "event_type": "VERIFICATION",
+        "threat_detected": false,
+        "threat_type": "none",
+        "confidence": 0.0,
+        "rule_detection": false,
+        "model_detection": false,
+        "details": {
+          "rule_confidence": 0.0,
+          "model_score": 0.0,
+          "rule_explanation": "",
+          "raw_data": {
+            "event_id": "rapid_event_1759153983_9",
+            "timestamp": "2025-09-29T22:53:57.883430",
+            "event_type": "VERIFICATION",
+            "holder_did": "did:example:rapid_attacker",
+            "verifier_id": "",
+            "vc_hash": "rapid_vc_9",
+            "label": "malicious",
+            "optional": {
+              "issuer_did": "did:example:issuer",
+              "platform": "sovrin",
+              "metadata": {
+                "platform": "sovrin",
+                "threat": true,
+                "attack_type": "rapid_events",
+                "event_interval": 6,
+                "total_events": 10,
+                "time_window": 60
+              }
+            }
+          }
+        }
+      },
+      {
+        "event_id": "time_anomaly_1759153983_0",
+        "timestamp": "2025-09-29T23:03:03.883560",
+        "event_type": "VERIFICATION",
+        "threat_detected": false,
+        "threat_type": "none",
+        "confidence": 0.0,
+        "rule_detection": false,
+        "model_detection": false,
+        "details": {
+          "rule_confidence": 0.0,
+          "model_score": 0.0,
+          "rule_explanation": "",
+          "raw_data": {
+            "event_id": "time_anomaly_1759153983_0",
+            "timestamp": "2025-09-29T23:03:03.883560",
+            "event_type": "VERIFICATION",
+            "holder_did": "did:example:time_attacker",
+            "verifier_id": "did:example:verifier",
+            "vc_hash": "anomaly_vc_0",
+            "label": "malicious",
+            "optional": {
+              "issuer_did": "did:example:issuer",
+              "platform": "didnow",
+              "metadata": {
+                "platform": "didnow",
+                "threat": true,
+                "attack_type": "time_anomaly",
+                "timestamp_anomaly": true,
+                "expected_order": 0,
+                "actual_timestamp": "2025-09-29T23:03:03.883560"
+              }
+            }
+          }
+        }
+      },
+      {
+        "event_id": "time_anomaly_1759153983_1",
+        "timestamp": "2025-09-29T22:48:03.883560",
+        "event_type": "VERIFICATION",
+        "threat_detected": false,
+        "threat_type": "none",
+        "confidence": 0.0,
+        "rule_detection": false,
+        "model_detection": false,
+        "details": {
+          "rule_confidence": 0.0,
+          "model_score": 0.0,
+          "rule_explanation": "",
+          "raw_data": {
+            "event_id": "time_anomaly_1759153983_1",
+            "timestamp": "2025-09-29T22:48:03.883560",
+            "event_type": "VERIFICATION",
+            "holder_did": "did:example:time_attacker",
+            "verifier_id": "did:example:verifier",
+            "vc_hash": "anomaly_vc_1",
+            "label": "malicious",
+            "optional": {
+              "issuer_did": "did:example:issuer",
+              "platform": "didnow",
+              "metadata": {
+                "platform": "didnow",
+                "threat": true,
+                "attack_type": "time_anomaly",
+                "timestamp_anomaly": true,
+                "expected_order": 1,
+                "actual_timestamp": "2025-09-29T22:48:03.883560"
+              }
+            }
+          }
+        }
+      },
+      {
+        "event_id": "time_anomaly_1759153983_2",
+        "timestamp": "2025-09-29T23:08:03.883560",
+        "event_type": "VERIFICATION",
+        "threat_detected": false,
+        "threat_type": "none",
+        "confidence": 0.0,
+        "rule_detection": false,
+        "model_detection": false,
+        "details": {
+          "rule_confidence": 0.0,
+          "model_score": 0.0,
+          "rule_explanation": "",
+          "raw_data": {
+            "event_id": "time_anomaly_1759153983_2",
+            "timestamp": "2025-09-29T23:08:03.883560",
+            "event_type": "VERIFICATION",
+            "holder_did": "did:example:time_attacker",
+            "verifier_id": "did:example:verifier",
+            "vc_hash": "anomaly_vc_2",
+            "label": "malicious",
+            "optional": {
+              "issuer_did": "did:example:issuer",
+              "platform": "didnow",
+              "metadata": {
+                "platform": "didnow",
+                "threat": true,
+                "attack_type": "time_anomaly",
+                "timestamp_anomaly": true,
+                "expected_order": 2,
+                "actual_timestamp": "2025-09-29T23:08:03.883560"
+              }
+            }
+          }
+        }
+      },
+      {
+        "event_id": "time_anomaly_1759153983_3",
+        "timestamp": "2025-09-29T22:51:03.883560",
+        "event_type": "VERIFICATION",
+        "threat_detected": false,
+        "threat_type": "none",
+        "confidence": 0.0,
+        "rule_detection": false,
+        "model_detection": false,
+        "details": {
+          "rule_confidence": 0.0,
+          "model_score": 0.0,
+          "rule_explanation": "",
+          "raw_data": {
+            "event_id": "time_anomaly_1759153983_3",
+            "timestamp": "2025-09-29T22:51:03.883560",
+            "event_type": "VERIFICATION",
+            "holder_did": "did:example:time_attacker",
+            "verifier_id": "did:example:verifier",
+            "vc_hash": "anomaly_vc_3",
+            "label": "malicious",
+            "optional": {
+              "issuer_did": "did:example:issuer",
+              "platform": "didnow",
+              "metadata": {
+                "platform": "didnow",
+                "threat": true,
+                "attack_type": "time_anomaly",
+                "timestamp_anomaly": true,
+                "expected_order": 3,
+                "actual_timestamp": "2025-09-29T22:51:03.883560"
+              }
+            }
+          }
+        }
+      },
+      {
+        "event_id": "cross_platform_1759153983_0",
+        "timestamp": "2025-09-29T22:53:03.883667",
+        "event_type": "ISSUANCE",
+        "threat_detected": false,
+        "threat_type": "none",
+        "confidence": 0.0,
+        "rule_detection": false,
+        "model_detection": false,
+        "details": {
+          "rule_confidence": 0.0,
+          "model_score": 0.0,
+          "rule_explanation": "",
+          "raw_data": {
+            "event_id": "cross_platform_1759153983_0",
+            "timestamp": "2025-09-29T22:53:03.883667",
+            "event_type": "ISSUANCE",
+            "holder_did": "did:example:cross_attacker",
+            "verifier_id": "",
+            "vc_hash": "cross_platform_vc",
+            "label": "malicious",
+            "optional": {
+              "issuer_did": "did:example:issuer",
+              "platform": "didnow",
+              "metadata": {
+                "platform": "didnow",
+                "threat": true,
+                "attack_type": "cross_platform",
+                "attack_sequence": 1,
+                "total_platforms": 3,
+                "coordinated_attack": true
+              }
+            }
+          }
+        }
+      },
+      {
+        "event_id": "cross_platform_1759153983_1",
+        "timestamp": "2025-09-29T22:58:03.883667",
+        "event_type": "VERIFICATION",
+        "threat_detected": false,
+        "threat_type": "none",
+        "confidence": 0.0,
+        "rule_detection": false,
+        "model_detection": false,
+        "details": {
+          "rule_confidence": 0.0,
+          "model_score": 0.0,
+          "rule_explanation": "",
+          "raw_data": {
+            "event_id": "cross_platform_1759153983_1",
+            "timestamp": "2025-09-29T22:58:03.883667",
+            "event_type": "VERIFICATION",
+            "holder_did": "did:example:cross_attacker",
+            "verifier_id": "did:example:verifier",
+            "vc_hash": "cross_platform_vc",
+            "label": "malicious",
+            "optional": {
+              "issuer_did": "did:example:issuer",
+              "platform": "veramo",
+              "metadata": {
+                "platform": "veramo",
+                "threat": true,
+                "attack_type": "cross_platform",
+                "attack_sequence": 2,
+                "total_platforms": 3,
+                "coordinated_attack": true
+              }
+            }
+          }
+        }
+      },
+      {
+        "event_id": "cross_platform_1759153983_2",
+        "timestamp": "2025-09-29T23:03:03.883667",
+        "event_type": "VERIFICATION",
+        "threat_detected": false,
+        "threat_type": "none",
+        "confidence": 0.0,
+        "rule_detection": false,
+        "model_detection": false,
+        "details": {
+          "rule_confidence": 0.0,
+          "model_score": 0.0,
+          "rule_explanation": "",
+          "raw_data": {
+            "event_id": "cross_platform_1759153983_2",
+            "timestamp": "2025-09-29T23:03:03.883667",
+            "event_type": "VERIFICATION",
+            "holder_did": "did:example:cross_attacker",
+            "verifier_id": "did:example:verifier",
+            "vc_hash": "cross_platform_vc",
+            "label": "malicious",
+            "optional": {
+              "issuer_did": "did:example:issuer",
+              "platform": "sovrin",
+              "metadata": {
+                "platform": "sovrin",
+                "threat": true,
+                "attack_type": "cross_platform",
+                "attack_sequence": 3,
+                "total_platforms": 3,
+                "coordinated_attack": true
+              }
+            }
+          }
+        }
+      },
+      {
+        "event_id": "credential_theft_1759153983_0",
+        "timestamp": "2025-09-29T22:53:03.883760",
+        "event_type": "PRESENTATION",
+        "threat_detected": false,
+        "threat_type": "none",
+        "confidence": 0.0,
+        "rule_detection": false,
+        "model_detection": false,
+        "details": {
+          "rule_confidence": 0.0,
+          "model_score": 0.0,
+          "rule_explanation": "",
+          "raw_data": {
+            "event_id": "credential_theft_1759153983_0",
+            "timestamp": "2025-09-29T22:53:03.883760",
+            "event_type": "PRESENTATION",
+            "holder_did": "did:example:thief",
+            "verifier_id": "did:example:verifier",
+            "vc_hash": "stolen_credential_123",
+            "label": "malicious",
+            "optional": {
+              "issuer_did": "did:example:original_holder",
+              "platform": "veramo",
+              "metadata": {
+                "platform": "veramo",
+                "threat": true,
+                "attack_type": "credential_theft",
+                "original_holder": "did:example:original_holder",
+                "thief_identity": "did:example:thief",
+                "stolen_credential": true
+              }
+            }
+          }
+        }
+      },
+      {
+        "event_id": "credential_theft_1759153983_1",
+        "timestamp": "2025-09-29T22:38:03.883767",
+        "event_type": "PRESENTATION",
+        "threat_detected": false,
+        "threat_type": "none",
+        "confidence": 0.0,
+        "rule_detection": false,
+        "model_detection": false,
+        "details": {
+          "rule_confidence": 0.0,
+          "model_score": 0.0,
+          "rule_explanation": "",
+          "raw_data": {
+            "event_id": "credential_theft_1759153983_1",
+            "timestamp": "2025-09-29T22:38:03.883767",
+            "event_type": "PRESENTATION",
+            "holder_did": "did:example:thief",
+            "verifier_id": "did:example:verifier",
+            "vc_hash": "stolen_credential_123",
+            "label": "malicious",
+            "optional": {
+              "issuer_did": "did:example:original_holder",
+              "platform": "veramo",
+              "metadata": {
+                "platform": "veramo",
+                "threat": true,
+                "attack_type": "credential_theft",
+                "original_holder": "did:example:original_holder",
+                "thief_identity": "did:example:thief",
+                "stolen_credential": true
+              }
+            }
+          }
+        }
+      },
+      {
+        "event_id": "credential_theft_1759153983_2",
+        "timestamp": "2025-09-29T22:23:03.883772",
+        "event_type": "PRESENTATION",
+        "threat_detected": false,
+        "threat_type": "none",
+        "confidence": 0.0,
+        "rule_detection": false,
+        "model_detection": false,
+        "details": {
+          "rule_confidence": 0.0,
+          "model_score": 0.0,
+          "rule_explanation": "",
+          "raw_data": {
+            "event_id": "credential_theft_1759153983_2",
+            "timestamp": "2025-09-29T22:23:03.883772",
+            "event_type": "PRESENTATION",
+            "holder_did": "did:example:thief",
+            "verifier_id": "did:example:verifier",
+            "vc_hash": "stolen_credential_123",
+            "label": "malicious",
+            "optional": {
+              "issuer_did": "did:example:original_holder",
+              "platform": "veramo",
+              "metadata": {
+                "platform": "veramo",
+                "threat": true,
+                "attack_type": "credential_theft",
+                "original_holder": "did:example:original_holder",
+                "thief_identity": "did:example:thief",
+                "stolen_credential": true
+              }
+            }
+          }
+        }
+      },
+      {
+        "event_id": "credential_theft_1759153983_3",
+        "timestamp": "2025-09-29T22:08:03.883776",
+        "event_type": "PRESENTATION",
+        "threat_detected": false,
+        "threat_type": "none",
+        "confidence": 0.0,
+        "rule_detection": false,
+        "model_detection": false,
+        "details": {
+          "rule_confidence": 0.0,
+          "model_score": 0.0,
+          "rule_explanation": "",
+          "raw_data": {
+            "event_id": "credential_theft_1759153983_3",
+            "timestamp": "2025-09-29T22:08:03.883776",
+            "event_type": "PRESENTATION",
+            "holder_did": "did:example:thief",
+            "verifier_id": "did:example:verifier",
+            "vc_hash": "stolen_credential_123",
+            "label": "malicious",
+            "optional": {
+              "issuer_did": "did:example:original_holder",
+              "platform": "veramo",
+              "metadata": {
+                "platform": "veramo",
+                "threat": true,
+                "attack_type": "credential_theft",
+                "original_holder": "did:example:original_holder",
+                "thief_identity": "did:example:thief",
+                "stolen_credential": true
+              }
+            }
+          }
+        }
+      },
+      {
+        "event_id": "did_hijack_update_1759153983",
+        "timestamp": "2025-09-29T22:43:03.883885",
+        "event_type": "DID_UPDATE",
+        "threat_detected": false,
+        "threat_type": "none",
+        "confidence": 0.0,
+        "rule_detection": false,
+        "model_detection": false,
+        "details": {
+          "rule_confidence": 0.0,
+          "model_score": 0.0,
+          "rule_explanation": "",
+          "raw_data": {
+            "event_id": "did_hijack_update_1759153983",
+            "timestamp": "2025-09-29T22:43:03.883885",
+            "event_type": "DID_UPDATE",
+            "holder_did": "did:example:hijacker",
+            "verifier_id": "",
+            "vc_hash": "",
+            "label": "malicious",
+            "optional": {
+              "issuer_did": "",
+              "platform": "sovrin",
+              "metadata": {
+                "platform": "sovrin",
+                "threat": true,
+                "attack_type": "did_hijacking",
+                "original_owner": "did:example:original_user",
+                "hijacker": "did:example:hijacker",
+                "hijack_method": "private_key_compromise"
+              }
+            }
+          }
+        }
+      },
+      {
+        "event_id": "did_hijack_deactivate_1759153983",
+        "timestamp": "2025-09-29T22:48:03.883891",
+        "event_type": "DID_DEACTIVATION",
+        "threat_detected": false,
+        "threat_type": "none",
+        "confidence": 0.0,
+        "rule_detection": false,
+        "model_detection": false,
+        "details": {
+          "rule_confidence": 0.0,
+          "model_score": 0.0,
+          "rule_explanation": "",
+          "raw_data": {
+            "event_id": "did_hijack_deactivate_1759153983",
+            "timestamp": "2025-09-29T22:48:03.883891",
+            "event_type": "DID_DEACTIVATION",
+            "holder_did": "did:example:hijacker",
+            "verifier_id": "",
+            "vc_hash": "",
+            "label": "malicious",
+            "optional": {
+              "issuer_did": "",
+              "platform": "sovrin",
+              "metadata": {
+                "platform": "sovrin",
+                "threat": true,
+                "attack_type": "did_hijacking",
+                "deactivation_by_hijacker": true
+              }
+            }
+          }
+        }
+      },
+      {
+        "event_id": "sybil_identity_1759153983_0",
+        "timestamp": "2025-09-29T22:53:03.883971",
+        "event_type": "DID_CREATION",
+        "threat_detected": false,
+        "threat_type": "none",
+        "confidence": 0.0,
+        "rule_detection": false,
+        "model_detection": false,
+        "details": {
+          "rule_confidence": 0.0,
+          "model_score": 0.0,
+          "rule_explanation": "",
+          "raw_data": {
+            "event_id": "sybil_identity_1759153983_0",
+            "timestamp": "2025-09-29T22:53:03.883971",
+            "event_type": "DID_CREATION",
+            "holder_did": "did:example:sybil_0",
+            "verifier_id": "",
+            "vc_hash": "",
+            "label": "malicious",
+            "optional": {
+              "issuer_did": "",
+              "platform": "didnow",
+              "metadata": {
+                "platform": "didnow",
+                "threat": true,
+                "attack_type": "sybil_attack",
+                "fake_identity": true,
+                "sybil_network": true,
+                "identity_count": 1,
+                "controlled_by": "did:example:sybil_controller"
+              }
+            }
+          }
+        }
+      },
+      {
+        "event_id": "sybil_identity_1759153983_1",
+        "timestamp": "2025-09-29T22:50:03.883978",
+        "event_type": "DID_CREATION",
+        "threat_detected": false,
+        "threat_type": "none",
+        "confidence": 0.0,
+        "rule_detection": false,
+        "model_detection": false,
+        "details": {
+          "rule_confidence": 0.0,
+          "model_score": 0.0,
+          "rule_explanation": "",
+          "raw_data": {
+            "event_id": "sybil_identity_1759153983_1",
+            "timestamp": "2025-09-29T22:50:03.883978",
+            "event_type": "DID_CREATION",
+            "holder_did": "did:example:sybil_1",
+            "verifier_id": "",
+            "vc_hash": "",
+            "label": "malicious",
+            "optional": {
+              "issuer_did": "",
+              "platform": "didnow",
+              "metadata": {
+                "platform": "didnow",
+                "threat": true,
+                "attack_type": "sybil_attack",
+                "fake_identity": true,
+                "sybil_network": true,
+                "identity_count": 2,
+                "controlled_by": "did:example:sybil_controller"
+              }
+            }
+          }
+        }
+      },
+      {
+        "event_id": "sybil_identity_1759153983_2",
+        "timestamp": "2025-09-29T22:47:03.883987",
+        "event_type": "DID_CREATION",
+        "threat_detected": false,
+        "threat_type": "none",
+        "confidence": 0.0,
+        "rule_detection": false,
+        "model_detection": false,
+        "details": {
+          "rule_confidence": 0.0,
+          "model_score": 0.0,
+          "rule_explanation": "",
+          "raw_data": {
+            "event_id": "sybil_identity_1759153983_2",
+            "timestamp": "2025-09-29T22:47:03.883987",
+            "event_type": "DID_CREATION",
+            "holder_did": "did:example:sybil_2",
+            "verifier_id": "",
+            "vc_hash": "",
+            "label": "malicious",
+            "optional": {
+              "issuer_did": "",
+              "platform": "didnow",
+              "metadata": {
+                "platform": "didnow",
+                "threat": true,
+                "attack_type": "sybil_attack",
+                "fake_identity": true,
+                "sybil_network": true,
+                "identity_count": 3,
+                "controlled_by": "did:example:sybil_controller"
+              }
+            }
+          }
+        }
+      },
+      {
+        "event_id": "sybil_identity_1759153983_3",
+        "timestamp": "2025-09-29T22:44:03.883992",
+        "event_type": "DID_CREATION",
+        "threat_detected": false,
+        "threat_type": "none",
+        "confidence": 0.0,
+        "rule_detection": false,
+        "model_detection": false,
+        "details": {
+          "rule_confidence": 0.0,
+          "model_score": 0.0,
+          "rule_explanation": "",
+          "raw_data": {
+            "event_id": "sybil_identity_1759153983_3",
+            "timestamp": "2025-09-29T22:44:03.883992",
+            "event_type": "DID_CREATION",
+            "holder_did": "did:example:sybil_3",
+            "verifier_id": "",
+            "vc_hash": "",
+            "label": "malicious",
+            "optional": {
+              "issuer_did": "",
+              "platform": "didnow",
+              "metadata": {
+                "platform": "didnow",
+                "threat": true,
+                "attack_type": "sybil_attack",
+                "fake_identity": true,
+                "sybil_network": true,
+                "identity_count": 4,
+                "controlled_by": "did:example:sybil_controller"
+              }
+            }
+          }
+        }
+      },
+      {
+        "event_id": "sybil_identity_1759153983_4",
+        "timestamp": "2025-09-29T22:41:03.883996",
+        "event_type": "DID_CREATION",
+        "threat_detected": false,
+        "threat_type": "none",
+        "confidence": 0.0,
+        "rule_detection": false,
+        "model_detection": false,
+        "details": {
+          "rule_confidence": 0.0,
+          "model_score": 0.0,
+          "rule_explanation": "",
+          "raw_data": {
+            "event_id": "sybil_identity_1759153983_4",
+            "timestamp": "2025-09-29T22:41:03.883996",
+            "event_type": "DID_CREATION",
+            "holder_did": "did:example:sybil_4",
+            "verifier_id": "",
+            "vc_hash": "",
+            "label": "malicious",
+            "optional": {
+              "issuer_did": "",
+              "platform": "didnow",
+              "metadata": {
+                "platform": "didnow",
+                "threat": true,
+                "attack_type": "sybil_attack",
+                "fake_identity": true,
+                "sybil_network": true,
+                "identity_count": 5,
+                "controlled_by": "did:example:sybil_controller"
+              }
+            }
+          }
+        }
+      },
+      {
+        "event_id": "sybil_identity_1759153983_5",
+        "timestamp": "2025-09-29T22:38:03.884003",
+        "event_type": "DID_CREATION",
+        "threat_detected": false,
+        "threat_type": "none",
+        "confidence": 0.0,
+        "rule_detection": false,
+        "model_detection": false,
+        "details": {
+          "rule_confidence": 0.0,
+          "model_score": 0.0,
+          "rule_explanation": "",
+          "raw_data": {
+            "event_id": "sybil_identity_1759153983_5",
+            "timestamp": "2025-09-29T22:38:03.884003",
+            "event_type": "DID_CREATION",
+            "holder_did": "did:example:sybil_5",
+            "verifier_id": "",
+            "vc_hash": "",
+            "label": "malicious",
+            "optional": {
+              "issuer_did": "",
+              "platform": "didnow",
+              "metadata": {
+                "platform": "didnow",
+                "threat": true,
+                "attack_type": "sybil_attack",
+                "fake_identity": true,
+                "sybil_network": true,
+                "identity_count": 6,
+                "controlled_by": "did:example:sybil_controller"
+              }
+            }
+          }
+        }
+      },
+      {
+        "event_id": "veramo_real_1759153983_0",
+        "timestamp": "2025-09-29T22:53:03.966255",
+        "event_type": "DID_CREATION",
+        "threat_detected": false,
+        "threat_type": "none",
+        "confidence": 0.0,
+        "rule_detection": false,
+        "model_detection": false,
+        "details": {
+          "rule_confidence": 0.0,
+          "model_score": 0.0,
+          "rule_explanation": "",
+          "raw_data": {
+            "event_id": "veramo_real_1759153983_0",
+            "timestamp": "2025-09-29T22:53:03.966255",
+            "event_type": "DID_CREATION",
+            "holder_did": "did:ethr:0x724648",
+            "verifier_id": "",
+            "vc_hash": "",
+            "label": "benign",
+            "optional": {
+              "issuer_did": "",
+              "platform": "veramo",
+              "metadata": {
+                "platform": "veramo",
+                "threat": false,
+                "plugin_version": "1.0.0",
+                "ethereum_network": "mainnet",
+                "real_plugin_usage": true,
+                "key_type": "secp256k1"
+              }
+            }
+          }
+        }
+      },
+      {
+        "event_id": "veramo_real_1759153983_1",
+        "timestamp": "2025-09-29T22:51:03.966316",
+        "event_type": "DID_CREATION",
+        "threat_detected": false,
+        "threat_type": "none",
+        "confidence": 0.0,
+        "rule_detection": false,
+        "model_detection": false,
+        "details": {
+          "rule_confidence": 0.0,
+          "model_score": 0.0,
+          "rule_explanation": "",
+          "raw_data": {
+            "event_id": "veramo_real_1759153983_1",
+            "timestamp": "2025-09-29T22:51:03.966316",
+            "event_type": "DID_CREATION",
+            "holder_did": "did:ethr:0x914256",
+            "verifier_id": "",
+            "vc_hash": "",
+            "label": "benign",
+            "optional": {
+              "issuer_did": "",
+              "platform": "veramo",
+              "metadata": {
+                "platform": "veramo",
+                "threat": false,
+                "plugin_version": "1.0.0",
+                "ethereum_network": "mainnet",
+                "real_plugin_usage": true,
+                "key_type": "secp256k1"
+              }
+            }
+          }
+        }
+      },
+      {
+        "event_id": "veramo_real_1759153983_2",
+        "timestamp": "2025-09-29T22:49:03.966351",
+        "event_type": "DID_CREATION",
+        "threat_detected": false,
+        "threat_type": "none",
+        "confidence": 0.0,
+        "rule_detection": false,
+        "model_detection": false,
+        "details": {
+          "rule_confidence": 0.0,
+          "model_score": 0.0,
+          "rule_explanation": "",
+          "raw_data": {
+            "event_id": "veramo_real_1759153983_2",
+            "timestamp": "2025-09-29T22:49:03.966351",
+            "event_type": "DID_CREATION",
+            "holder_did": "did:ethr:0x719492",
+            "verifier_id": "",
+            "vc_hash": "",
+            "label": "benign",
+            "optional": {
+              "issuer_did": "",
+              "platform": "veramo",
+              "metadata": {
+                "platform": "veramo",
+                "threat": false,
+                "plugin_version": "1.0.0",
+                "ethereum_network": "mainnet",
+                "real_plugin_usage": true,
+                "key_type": "secp256k1"
+              }
+            }
+          }
+        }
+      },
+      {
+        "event_id": "veramo_real_1759153983_3",
+        "timestamp": "2025-09-29T22:47:03.966375",
+        "event_type": "DID_CREATION",
+        "threat_detected": false,
+        "threat_type": "none",
+        "confidence": 0.0,
+        "rule_detection": false,
+        "model_detection": false,
+        "details": {
+          "rule_confidence": 0.0,
+          "model_score": 0.0,
+          "rule_explanation": "",
+          "raw_data": {
+            "event_id": "veramo_real_1759153983_3",
+            "timestamp": "2025-09-29T22:47:03.966375",
+            "event_type": "DID_CREATION",
+            "holder_did": "did:ethr:0x289358",
+            "verifier_id": "",
+            "vc_hash": "",
+            "label": "benign",
+            "optional": {
+              "issuer_did": "",
+              "platform": "veramo",
+              "metadata": {
+                "platform": "veramo",
+                "threat": false,
+                "plugin_version": "1.0.0",
+                "ethereum_network": "mainnet",
+                "real_plugin_usage": true,
+                "key_type": "secp256k1"
+              }
+            }
+          }
+        }
+      },
+      {
+        "event_id": "veramo_real_1759153983_4",
+        "timestamp": "2025-09-29T22:45:03.966396",
+        "event_type": "DID_CREATION",
+        "threat_detected": false,
+        "threat_type": "none",
+        "confidence": 0.0,
+        "rule_detection": false,
+        "model_detection": false,
+        "details": {
+          "rule_confidence": 0.0,
+          "model_score": 0.0,
+          "rule_explanation": "",
+          "raw_data": {
+            "event_id": "veramo_real_1759153983_4",
+            "timestamp": "2025-09-29T22:45:03.966396",
+            "event_type": "DID_CREATION",
+            "holder_did": "did:ethr:0x652020",
+            "verifier_id": "",
+            "vc_hash": "",
+            "label": "benign",
+            "optional": {
+              "issuer_did": "",
+              "platform": "veramo",
+              "metadata": {
+                "platform": "veramo",
+                "threat": false,
+                "plugin_version": "1.0.0",
+                "ethereum_network": "mainnet",
+                "real_plugin_usage": true,
+                "key_type": "secp256k1"
+              }
+            }
+          }
+        }
+      },
+      {
+        "event_id": "sovrin_real_1759153983_0",
+        "timestamp": "2025-09-29T22:53:03.966771",
+        "event_type": "PRESENTATION",
+        "threat_detected": false,
+        "threat_type": "none",
+        "confidence": 0.0,
+        "rule_detection": false,
+        "model_detection": false,
+        "details": {
+          "rule_confidence": 0.0,
+          "model_score": 0.0,
+          "rule_explanation": "",
+          "raw_data": {
+            "event_id": "sovrin_real_1759153983_0",
+            "timestamp": "2025-09-29T22:53:03.966771",
+            "event_type": "PRESENTATION",
+            "holder_did": "did:sov:test9268",
+            "verifier_id": "did:sov:verifier123",
+            "vc_hash": "sovrin_vc_0",
+            "label": "benign",
+            "optional": {
+              "issuer_did": "did:sov:issuer456",
+              "platform": "sovrin",
+              "metadata": {
+                "platform": "sovrin",
+                "threat": false,
+                "network": "testnet",
+                "real_adapter_usage": true,
+                "indy_sdk_version": "1.16.0",
+                "ledger_type": "indy"
+              }
+            }
+          }
+        }
+      },
+      {
+        "event_id": "sovrin_real_1759153983_1",
+        "timestamp": "2025-09-29T22:50:03.966809",
+        "event_type": "PRESENTATION",
+        "threat_detected": false,
+        "threat_type": "none",
+        "confidence": 0.0,
+        "rule_detection": false,
+        "model_detection": false,
+        "details": {
+          "rule_confidence": 0.0,
+          "model_score": 0.0,
+          "rule_explanation": "",
+          "raw_data": {
+            "event_id": "sovrin_real_1759153983_1",
+            "timestamp": "2025-09-29T22:50:03.966809",
+            "event_type": "PRESENTATION",
+            "holder_did": "did:sov:test6680",
+            "verifier_id": "did:sov:verifier123",
+            "vc_hash": "sovrin_vc_1",
+            "label": "benign",
+            "optional": {
+              "issuer_did": "did:sov:issuer456",
+              "platform": "sovrin",
+              "metadata": {
+                "platform": "sovrin",
+                "threat": false,
+                "network": "testnet",
+                "real_adapter_usage": true,
+                "indy_sdk_version": "1.16.0",
+                "ledger_type": "indy"
+              }
+            }
+          }
+        }
+      },
+      {
+        "event_id": "sovrin_real_1759153983_2",
+        "timestamp": "2025-09-29T22:47:03.966868",
+        "event_type": "PRESENTATION",
+        "threat_detected": false,
+        "threat_type": "none",
+        "confidence": 0.0,
+        "rule_detection": false,
+        "model_detection": false,
+        "details": {
+          "rule_confidence": 0.0,
+          "model_score": 0.0,
+          "rule_explanation": "",
+          "raw_data": {
+            "event_id": "sovrin_real_1759153983_2",
+            "timestamp": "2025-09-29T22:47:03.966868",
+            "event_type": "PRESENTATION",
+            "holder_did": "did:sov:test1417",
+            "verifier_id": "did:sov:verifier123",
+            "vc_hash": "sovrin_vc_2",
+            "label": "benign",
+            "optional": {
+              "issuer_did": "did:sov:issuer456",
+              "platform": "sovrin",
+              "metadata": {
+                "platform": "sovrin",
+                "threat": false,
+                "network": "testnet",
+                "real_adapter_usage": true,
+                "indy_sdk_version": "1.16.0",
+                "ledger_type": "indy"
+              }
+            }
+          }
+        }
+      },
+      {
+        "event_id": "sovrin_real_1759153983_3",
+        "timestamp": "2025-09-29T22:44:03.966892",
+        "event_type": "PRESENTATION",
+        "threat_detected": false,
+        "threat_type": "none",
+        "confidence": 0.0,
+        "rule_detection": false,
+        "model_detection": false,
+        "details": {
+          "rule_confidence": 0.0,
+          "model_score": 0.0,
+          "rule_explanation": "",
+          "raw_data": {
+            "event_id": "sovrin_real_1759153983_3",
+            "timestamp": "2025-09-29T22:44:03.966892",
+            "event_type": "PRESENTATION",
+            "holder_did": "did:sov:test7273",
+            "verifier_id": "did:sov:verifier123",
+            "vc_hash": "sovrin_vc_3",
+            "label": "benign",
+            "optional": {
+              "issuer_did": "did:sov:issuer456",
+              "platform": "sovrin",
+              "metadata": {
+                "platform": "sovrin",
+                "threat": false,
+                "network": "testnet",
+                "real_adapter_usage": true,
+                "indy_sdk_version": "1.16.0",
+                "ledger_type": "indy"
+              }
+            }
+          }
+        }
+      }
+    ],
+    "summary": {
+      "total_events": 66,
+      "threats_detected": 6,
+      "detection_rate": 0.09090909090909091,
+      "threat_types": {
+        "rapid_events": 5,
+        "time_anomaly": 1
+      },
+      "timestamp": "2025-09-29T22:53:04.058161"
+    },
+    "rule_results": {
+      "rapid_event_1759153983_1": {
+        "threat_type": "rapid_events",
+        "confidence": 0.7,
+        "explanation": "Holder가 1분 내 9개 이벤트 발생"
+      },
+      "rapid_event_1759153983_4": {
+        "threat_type": "rapid_events",
+        "confidence": 0.7,
+        "explanation": "Holder가 1분 내 6개 이벤트 발생"
+      },
+      "rapid_event_1759153983_5": {
+        "threat_type": "time_anomaly",
+        "confidence": 0.8,
+        "explanation": "동일 사용자가 5분 내 3개 VC 제시"
+      },
+      "rapid_event_1759153983_0": {
+        "threat_type": "rapid_events",
+        "confidence": 0.7,
+        "explanation": "Holder가 1분 내 10개 이벤트 발생"
+      },
+      "rapid_event_1759153983_2": {
+        "threat_type": "rapid_events",
+        "confidence": 0.7,
+        "explanation": "Holder가 1분 내 8개 이벤트 발생"
+      },
+      "rapid_event_1759153983_3": {
+        "threat_type": "rapid_events",
+        "confidence": 0.7,
+        "explanation": "Holder가 1분 내 7개 이벤트 발생"
+      }
+    },
+    "model_results": {},
+    "threat_analysis": {
+      "total_events": 66,
+      "threat_events": 37,
+      "normal_events": 29,
+      "platform_distribution": {
+        "didnow": 23,
+        "veramo": 18,
+        "sovrin": 25
+      },
+      "attack_types": {
+        "credential_reuse": 5,
+        "issuer_impersonation": 3,
+        "rapid_events": 10,
+        "time_anomaly": 4,
+        "cross_platform": 3,
+        "credential_theft": 4,
+        "did_hijacking": 2,
+        "sybil_attack": 6
+      },
+      "time_patterns": {}
+    }
+  },
+  "threat_scenarios": [
+    {
+      "name": "credential_reuse_attack",
+      "description": "동일한 VC를 여러 번 사용하는 공격",
+      "threat_level": "medium",
+      "complexity": 3,
+      "detection_difficulty": "medium"
+    },
+    {
+      "name": "issuer_impersonation",
+      "description": "발급자를 위장하여 가짜 VC 발급",
+      "threat_level": "high",
+      "complexity": 4,
+      "detection_difficulty": "hard"
+    },
+    {
+      "name": "rapid_events_attack",
+      "description": "짧은 시간 내에 대량의 이벤트 발생",
+      "threat_level": "medium",
+      "complexity": 2,
+      "detection_difficulty": "easy"
+    },
+    {
+      "name": "time_anomaly_attack",
+      "description": "시간 순서가 맞지 않는 이벤트 발생",
+      "threat_level": "high",
+      "complexity": 5,
+      "detection_difficulty": "hard"
+    },
+    {
+      "name": "cross_platform_attack",
+      "description": "여러 플랫폼을 이용한 분산 공격",
+      "threat_level": "critical",
+      "complexity": 5,
+      "detection_difficulty": "very_hard"
+    },
+    {
+      "name": "credential_theft_simulation",
+      "description": "자격증명 도용 시뮬레이션",
+      "threat_level": "high",
+      "complexity": 4,
+      "detection_difficulty": "hard"
+    },
+    {
+      "name": "did_hijacking",
+      "description": "DID 탈취 공격",
+      "threat_level": "critical",
+      "complexity": 5,
+      "detection_difficulty": "very_hard"
+    },
+    {
+      "name": "sybil_attack",
+      "description": "다중 신원 생성 공격",
+      "threat_level": "high",
+      "complexity": 4,
+      "detection_difficulty": "hard"
+    }
+  ]
+}

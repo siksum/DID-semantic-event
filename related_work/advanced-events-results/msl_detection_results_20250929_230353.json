@@ -1,0 +1,41 @@
+{
+  "timestamp": "2025-09-29T23:03:53.487728",
+  "input_data": {
+    "total_events": 66,
+    "normal_events": 29,
+    "threat_events": 37,
+    "platforms": {
+      "sovrin": 25,
+      "didnow": 23,
+      "veramo": 18
+    }
+  },
+  "detection_results": {
+    "total_detected": 66,
+    "threat_levels": {
+      "benign": 37,
+      "low": 26,
+      "medium": 3
+    },
+    "threat_scores": {
+      "min": 0.0,
+      "max": 0.5,
+      "mean": 0.12121212121212122,
+      "std": 0.1470375687368593
+    }
+  },
+  "performance": {
+    "detection_time": {
+      "mean": 0.17656517028808594,
+      "std": 0.0,
+      "min": 0.17656517028808594,
+      "max": 0.17656517028808594
+    }
+  },
+  "summary": {
+    "accuracy": 72.73,
+    "precision": 82.76,
+    "recall": 64.86,
+    "f1_score": 72.73
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "test_timestamp": "2025-09-29T17:31:58.842340",
+  "total_scenarios": 5,
+  "scenario_summaries": {
+    "vc_reuse_attack": {
+      "msl_detector_performance": {
+        "f1_score": 1.0,
+        "accuracy": 1.0,
+        "detection_rate": 0.1
+      },
+      "platform_performance": {},
+      "best_performer": "MSL_Core",
+      "overall_score": 1.0
+    },
+    "issuer_impersonation": {
+      "msl_detector_performance": {
+        "f1_score": 0.6666666666666666,
+        "accuracy": 0.9,
+        "detection_rate": 0.1
+      },
+      "platform_performance": {},
+      "best_performer": "MSL_Core",
+      "overall_score": 0.6666666666666666
+    },
+    "time_anomaly": {
+      "msl_detector_performance": {
+        "f1_score": 1.0,
+        "accuracy": 1.0,
+        "detection_rate": 0.16
+      },
+      "platform_performance": {},
+      "best_performer": "MSL_Core",
+      "overall_score": 1.0
+    },
+    "rapid_events": {
+      "msl_detector_performance": {
+        "f1_score": 0,
+        "accuracy": 0.88,
+        "detection_rate": 0.0
+      },
+      "platform_performance": {},
+      "best_performer": "MSL_Core",
+      "overall_score": 0
+    },
+    "credential_theft": {
+      "msl_detector_performance": {
+        "f1_score": 1.0,
+        "accuracy": 1.0,
+        "detection_rate": 0.1
+      },
+      "platform_performance": {},
+      "best_performer": "MSL_Core",
+      "overall_score": 1.0
+    }
+  },
+  "overall_performance": {
+    "msl_detector": {
+      "avg_f1_score": 0.9166666666666666,
+      "total_tests": 4
+    }
+  },
+  "best_performers": {
+    "MSL_Core": 5
+  }
+}
